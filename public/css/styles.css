@@ -17,6 +17,7 @@ h2 {
   font-size: 41px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+  color: white;
 }
 
 h3 {
@@ -73,7 +74,10 @@ nav {
 }
 
 .text-float {
-  position: relative;
+  position:absolute;
+  top:35%;
+  width:100%;
+  text-align:center;
   z-index: 100;
 }
 

@@ -7,44 +7,45 @@ styles
 @endsection('css')
 @section('main')
 
-  <div class="">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <!-- indicators
-       <ol class="carousel-indicators">
-           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-           <li data-target="#myCarousel" data-slide-to="1"></li>
-           <li data-target="#myCarousel" data-slide-to="2"></li> -->
-      </ol>
-      <div class="carousel-inner">
-        <div class="vp carousel-item active">
-          <img src="/img/CrossoverTop3.png" class="d-block w-100" alt="">
+  <div class="carrouselHero">
+    <div class="text-float">
+      <h2>Crossover es una consultora dedicada al  entrenamiento de personas y a la revitalizacion de equipos de trabajo</h2>
+      <p>Nos concentramos en desarrollar las habilidades necesarias para potenciar a las personas en el desem</p>
+    </div>
+    <div class="black">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <!-- indicators
+         <ol class="carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+             <li data-target="#myCarousel" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="vp carousel-item active">
+            <img src="/img/CrossoverTop3.png" class="d-block w-100" alt="">
+          </div>
+          <div class="vp carousel-item">
+            <img src="/img/CrossoverTop4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="vp carousel-item">
+            <img src="/img/CrossoverTop5.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="vp carousel-item">
+            <img src="/img/CrossoverTop2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="vp carousel-item">
+            <img src="/img/CrossoverTop.png" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="vp carousel-item">
-          <img src="/img/CrossoverTop4.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="vp carousel-item">
-          <img src="/img/CrossoverTop5.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="vp carousel-item">
-          <img src="/img/CrossoverTop2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="vp carousel-item">
-          <img src="/img/CrossoverTop.png" class="d-block w-100" alt="...">
-        </div>
+        {{-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> --}}
       </div>
-      {{-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a> --}}
     </div>
   </div>
-
-
-<div class="black">
-
-</div>
 @endsection('main')
