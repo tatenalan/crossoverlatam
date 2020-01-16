@@ -6,8 +6,83 @@
   text-decoration: none;
 }
 
-.crossoverTop {
-  background-image: url("../img/clothes.jpeg");
-  background-repeat: no-repeat;
-  min-height: 100vh;
+h1 {
+  font-size: 70px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  /* interlineado 75px */
 }
+
+h2 {
+  font-size: 41px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+button p {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a.nav-link {
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+nav {
+  padding: 0;
+  height: 154px;
+}
+
+
+/* .crossoverTop {
+  background-image: url("../img/CrossoverTop3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+} */
+
+.carrousel {
+  position: absolute;
+}
+
+.vp {
+  width: 100%;
+  max-height: 100vh;
+}
+
+
+.logo {
+  width: 191px;
+  height: 22px;
+}
+
+.text-float {
+  position: relative;
+  z-index: 100;
+}
+
+div.black {
+  background-color: #161616;
+  height: 440px;
+}
+
+/* .dropdown-toggle::after {
+  vertical-align: -0.745em;
+  left: -48px;
+} */
