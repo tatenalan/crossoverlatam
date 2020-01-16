@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.crossoverTop {
+  background-image: url("../img/clothes.jpeg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
