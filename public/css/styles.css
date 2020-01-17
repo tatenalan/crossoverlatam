@@ -35,10 +35,20 @@ p {
   padding: 5px 0;
 }
 
-span {
+p:last-child {
+  margin: 0px;
+}
+
+span.naranja {
   font-size: 12px;
   font-family: 'Playfair Display', serif;
   color: #F4BA59;
+  font-weight: bold;
+}
+
+span.blanco {
+  color:#ffffff;
+  font-weight: normal;
 }
 
 .bold {
@@ -58,7 +68,7 @@ main {
 
 .navbar {
   position: fixed;
-  padding: 30px;
+  padding: 30px 37px 30px 8px;
   top: 0;
   right: 0;
   left: 0;
@@ -66,7 +76,7 @@ main {
 }
 
 .navbar-brand {
-  padding-left: 9px;
+  line-height: 0px;
 }
 
 .logo {
@@ -86,22 +96,16 @@ a.nav-link {
 }
 
 .dropdown-menu.show {
-    display: block;
-    position: absolute;
-    top: 38px;
-    left: 50%;
-    transform: translateX(-50%);
+  display: block;
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dropdown-item {
   text-align: center;
 }
-
-/* .dropdown-toggle::after {
-  vertical-align: -0.745em;
-  left: -48px;
-} */
-
 
 /* Section carousel hero */
 
@@ -148,7 +152,8 @@ button {
   display: flex;
   flex-direction: column;
   position:absolute;
-  padding: 45px 20px;
+  padding: 45px 40px;
+  margin-top: 40%;
   width:100%;
   z-index: 100;
 }
@@ -160,16 +165,24 @@ div.buttonContent {
 
 .btnht {
   width: 180px;
-  box-shadow: 3px 3px 6px #0000004D;
   border: 2px solid #FFFFFF;
+  background-color: #ffffff35;
   border-radius: 12px;
   opacity: 1;
   font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #ffffff50;
+    border-color: #ffffff;
 }
 
 .violeta {
   background-color: #982C55;
-  opacity: 0.80;
+  opacity: 0.88;
   z-index: 10;
   display: flex;
   position: absolute;
@@ -200,27 +213,48 @@ div.black {
 /* Media queries */
 
 /* Cuando la resolucion sea mayor o igual a 768 va a pasar lo siguiente */
+@media (min-width: 768px) {
+
+  .carouselContent {
+    margin-top: 20%;
+  }
+
+}
+
+/* Cuando la resolucion sea mayor o igual a 992 va a pasar lo siguiente */
+@media (min-width: 992px) {
+
+  .dropdown-toggle::after {
+    display: table;
+    position: relative;
+    left: 63px;
+  }
+
+}
+
+
+/* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
 @media (min-width: 1024px) {
 
   /* General */
 
   h2 {
-    font-size: 26px;
+    font-size: 41px;
     padding: 40px 0
   }
 
   p {
-    font-size: 16px;
+    font-size: 22px;
   }
 
-  span {
-    font-size: 16px;
+  span.naranja {
+    font-size: 22px;
   }
 
   /* Header y nav */
 
-  .navbar-brand {
-    padding-left: 85px;
+  .navbar {
+    padding: 30px 95px 30px 95px;
   }
 
 
@@ -232,13 +266,14 @@ div.black {
     position:absolute;
     padding: 60px;
     padding-top: 50px;
+    margin-top: 6%;
     width:100%;
     z-index: 100;
   }
 
   div.text {
-    padding-right: 100px;
-    padding-left: 70px;
+    padding-right: 20%;
+    padding-left: 119px;
   }
 
 

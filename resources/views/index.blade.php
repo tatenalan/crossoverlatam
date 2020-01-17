@@ -11,11 +11,9 @@ styles
     <div class="carouselContent">
 
       <div class="text">
-        <h2>Crossover es una consultora dedicada al  entrenamiento de personas y a la revitalizacion de equipos de trabajo.</h2>
-        <p class="bold">Nos concentramos en desarrollar las habilidades necesarias para potenciar a las personas en el desempeño de habilidades para el rol.</p>
-        <p>Con gran experiencia en equipos comerciales, nos especializamos en  el diseño de <span>Escuelas de  Entrenamiento de Líderes y Programas de entrenamiento en ventas</span>. Acompaña los momentos de cambio, ayudando a desarrollar las habilidades necesarias para poder implementar las estrategias definidas en la tarea cotidiana de los equipos de trabajo.</p>
-        <p>Tenemos un equipo de gran experiencia: coachs, mentores y facilitadores especialistas en personas en desarrollo.</p>
-        <span>Será un gusto conocernos.</span>
+        <h2>Crossover Human Training</h2>
+        <p class="bold">Crossover es una consultora dedicada al entrenamiento de personas y a la revitalización de trabajo.<span class="blanco"> Nos concentramos en desarrollar las habilidades necesarias para potenciar a las personas en el desempeño de habilidades para el rol.</span></p>
+        <p>Con gran experiencia en equipos comerciales, nos especializamos en el diseño de <span class="naranja">Escuelas de  Entrenamiento de Líderes, Programas de Entrenamiento en Ventas y Team Buildings.</span></p>
       </div>
 
       <div class="buttonContent">
