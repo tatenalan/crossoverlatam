@@ -21,7 +21,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
 
             <li class="nav-item active">
               <a class="nav-link" href="#">Quienes Somos <span class="sr-only">(current)</span></a>
@@ -33,6 +33,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Human to Human</a>
+                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Go to Goals</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Project Team</a>
