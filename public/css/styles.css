@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 41px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   color: white;
@@ -30,7 +30,7 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 22px;
   font-family: 'Playfair Display', serif;
   color: white;
   padding: 5px 0;
@@ -42,7 +42,7 @@ p:last-child {
 }
 
 span.naranja {
-  font-size: 16px;
+  font-size: 22px;
   font-family: 'Playfair Display', serif;
   color: #F4BA59;
   font-weight: bold;
@@ -162,7 +162,7 @@ button {
   flex-direction: column;
   position:absolute;
   padding: 45px 40px;
-  margin-top: 40%;
+  margin-top: 25%;
   width:100%;
   z-index: 100;
 }
@@ -225,6 +225,28 @@ div.black {
   background-color: #F4BA5935;
 }
 
+/* Section gallery */
+
+.imagen-galeria {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.imgagenesMiniatura {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.imagen-ampliada {
+  width: 100%;
+}
+
+.imagen-miniatura {
+  width: 12%;
+  padding: 0,5%;
+}
+
 /* .crossoverTop {
   background-image: url("../img/CrossoverTop3.png");
   background-size: cover;
@@ -241,7 +263,7 @@ div.black {
 @media (min-width: 768px) {
 
   .carouselContent {
-    margin-top: 15%;
+    margin-top: 25%;
   }
 
 }
@@ -257,34 +279,8 @@ div.black {
 
 }
 
-
 /* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
 @media (min-width: 1024px) {
-
-  /* General */
-
-  h2 {
-    font-size: 41px;
-    padding: 40px 0
-  }
-
-  p {
-    font-size: 22px;
-    line-height: 36px;
-  }
-
-  span.naranja {
-    font-size: 22px;
-  }
-
-  /* Header y nav */
-
-  .navbar {
-    padding: 30px 95px 30px 95px;
-  }
-
-
-  /* Section carousel hero */
 
   .carouselContent {
     display: flex;
@@ -292,7 +288,7 @@ div.black {
     position:absolute;
     padding: 60px;
     padding-top: 50px;
-    margin-top: 2.2%;
+    margin-top: 10%;
     width:100%;
     z-index: 100;
   }
@@ -316,6 +312,14 @@ div.black {
   div.content {
     padding: 50px;
   }
+
+}
+
+
+/* Cuando la resolucion sea mayor o igual a 1366 va a pasar lo siguiente */
+@media (min-width: 1366px) {
+
+
 
   /* Section black background */
 

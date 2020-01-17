@@ -48,7 +48,8 @@ styles
       </div>
   </section>
 
-  <section>
+  <section class="black-background">
+
     <div class="black">
       <div class="content">
         <h1>Qué es <br> Human <br> <span class="naranjaBig">Training?</span></h1>
@@ -59,15 +60,41 @@ styles
         <p>Mezclamos <span class="naranja">espacios teóricos conceptuales</span> (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se <span class="naranja">traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</span></p>
         <button class="btnComoTrabajamos btn" type="button" name="button">Mirá como trabajamos</button>
       </div>
-
     </div>
+
   </section>
 
+  <section class="galery">
 
-
-  {{-- <section>
-    <div class="black">
+    <div class="imagen-galeria">
+      <img class="imagen-ampliada"src="/img/1.png" alt="imagen galeria">
     </div>
-  </section> --}}
+
+    <div class="imgagenesMiniatura">
+      <img class="imagen-miniatura" src="/img/9.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/2.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/3.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/4.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/5.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/6.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/7.png" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/8.png" alt="imagen galeria">
+    </div>
+
+  </section>
+
+  <section class="black-background">
+
+    <div class="black">
+      <div class="content">
+        <h1>Nuestros<br> <span class="naranjaBig">Programas</span></h1>
+      </div>
+
+      <div class="content">
+        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos</p>
+      </div>
+    </div>
+
+  </section>
 
 @endsection('main')
