@@ -12,7 +12,8 @@ h1 {
   font-size: 70px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  /* interlineado 75px */
+  color: white;
+  margin-bottom: 4.5rem;
 }
 
 h2 {
@@ -29,10 +30,11 @@ h3 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Playfair Display', serif;
   color: white;
   padding: 5px 0;
+  line-height: 28px;
 }
 
 p:last-child {
@@ -40,7 +42,7 @@ p:last-child {
 }
 
 span.naranja {
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Playfair Display', serif;
   color: #F4BA59;
   font-weight: bold;
@@ -49,6 +51,13 @@ span.naranja {
 span.blanco {
   color:#ffffff;
   font-weight: normal;
+}
+
+span.naranjaBig {
+  font-size: 70px;
+  font-family: 'Playfair Display', serif;
+  color: #F4BA59;
+  font-weight: bold;
 }
 
 .bold {
@@ -163,18 +172,19 @@ div.buttonContent {
   padding-top: 20px;
 }
 
-.btnht {
-  width: 180px;
+.btnHumanTraining {
+  width: 210px;
   border: 2px solid #FFFFFF;
   background-color: #ffffff35;
   border-radius: 12px;
   opacity: 1;
-  font-size: 12px;
+  color: white;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
-.btn-secondary:hover {
+.btnHumanTraining:hover {
     color: #fff;
     background-color: #ffffff50;
     border-color: #ffffff;
@@ -194,11 +204,26 @@ div.buttonContent {
 
 div.black {
   background-color: #161616;
-  height: 440px;
+  text-align: center;
+  padding: 140px;
 }
 
+.btnComoTrabajamos {
+  width: 202px;
+  border: 2px solid #F4BA59;
+  color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  opacity: 1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
 
-
+.btnComoTrabajamos:hover {
+  color: white;
+  background-color: #F4BA5935;
+}
 
 /* .crossoverTop {
   background-image: url("../img/CrossoverTop3.png");
@@ -216,7 +241,7 @@ div.black {
 @media (min-width: 768px) {
 
   .carouselContent {
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
 }
@@ -245,6 +270,7 @@ div.black {
 
   p {
     font-size: 22px;
+    line-height: 36px;
   }
 
   span.naranja {
@@ -266,7 +292,7 @@ div.black {
     position:absolute;
     padding: 60px;
     padding-top: 50px;
-    margin-top: 6%;
+    margin-top: 2.2%;
     width:100%;
     z-index: 100;
   }
@@ -282,9 +308,21 @@ div.black {
     padding-right: 70px;
   }
 
-  .btnht {
-    width: 180px;
-    font-size: 14px;
+  .btnHumanTraining {
+    width: 195px;
+    font-size: 16px;
+  }
+
+  div.content {
+    padding: 50px;
+  }
+
+  /* Section black background */
+
+  div.black {
+  padding: 110px;
+  display: flex;
+  text-align: left;
   }
 
 }

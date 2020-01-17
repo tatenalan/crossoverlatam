@@ -17,7 +17,7 @@ styles
       </div>
 
       <div class="buttonContent">
-        <button class="btnht btn btn-secondary" type="button" name="button">Qué es Human Training</button>
+        <button class="btnHumanTraining btn" type="button" name="button">Qué es Human Training</button>
       </div>
 
     </div>
@@ -46,6 +46,21 @@ styles
         </div>
 
       </div>
+  </section>
+
+  <section>
+    <div class="black">
+      <div class="content">
+        <h1>Qué es <br> Human <br> <span class="naranjaBig">Training?</span></h1>
+      </div>
+
+      <div class="content">
+        <p>Es un <span class="naranja">concepto de capacitación</span> a partir de un <span class="naranja">blending</span> de acciones de formación que consisten en una receta con condimentos, cuyas proporciones se definen a medida de las condiciones de cada grupo de trabajo.</p>
+        <p>Mezclamos <span class="naranja">espacios teóricos conceptuales</span> (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se <span class="naranja">traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</span></p>
+        <button class="btnComoTrabajamos btn" type="button" name="button">Mirá como trabajamos</button>
+      </div>
+
+    </div>
   </section>
 
 
