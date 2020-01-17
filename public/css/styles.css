@@ -1,3 +1,5 @@
+/* General */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,13 +12,16 @@ h1 {
   font-size: 70px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  /* interlineado 75px */
+  color: white;
+  margin-bottom: 4.5rem;
 }
 
 h2 {
   font-size: 41px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+  color: white;
+  padding: 5px 0
 }
 
 h3 {
@@ -28,12 +33,64 @@ p {
   font-size: 22px;
   font-family: 'Playfair Display', serif;
   color: white;
+  padding: 5px 0;
+  line-height: 28px;
 }
 
-button p {
+p:last-child {
+  margin: 0px;
+}
+
+span.naranja {
   font-size: 22px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
+  color: #F4BA59;
   font-weight: bold;
+}
+
+span.blanco {
+  color:#ffffff;
+  font-weight: normal;
+}
+
+span.naranjaBig {
+  font-size: 70px;
+  font-family: 'Playfair Display', serif;
+  color: #F4BA59;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.vp {
+  width: 100%;
+  max-height: 100vh;
+}
+
+main {
+  margin-top: 100px;
+}
+
+/* Header y nav */
+
+.navbar {
+  position: fixed;
+  padding: 30px 37px 30px 8px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.navbar-brand {
+  line-height: 0px;
+}
+
+.logo {
+  width: 191px;
+  height: 22px;
 }
 
 a.nav-link {
@@ -42,11 +99,153 @@ a.nav-link {
   font-weight: bold;
 }
 
-nav {
-  padding: 0;
-  height: 154px;
+.navbar-collapse {
+  text-align: center;
+  justify-content: flex-end;
 }
 
+.dropdown-menu.show {
+  display: block;
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+/* Section carousel hero */
+
+.pic1, .pic2, .pic3, .pic4, .pic5 {
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.pic1{
+  background-image: url("../img/CrossoverTop.png");
+  min-height: 100vh;
+}
+
+.pic2{
+  background-image: url("../img/CrossoverTop2.png");
+  min-height: 100vh;
+}
+
+.pic3{
+  background-image: url("../img/CrossoverTop3.png");
+  min-height: 100vh;
+}
+
+.pic4{
+  background-image: url("../img/CrossoverTop4.png");
+  min-height: 100vh;
+}
+
+.pic5{
+  background-image: url("../img/CrossoverTop5.png");
+  min-height: 100vh;
+}
+
+
+button {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.carouselContent {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  padding: 45px 40px;
+  margin-top: 25%;
+  width:100%;
+  z-index: 100;
+}
+
+div.buttonContent {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btnHumanTraining {
+  width: 210px;
+  border: 2px solid #FFFFFF;
+  background-color: #ffffff35;
+  border-radius: 12px;
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.btnHumanTraining:hover {
+    color: #fff;
+    background-color: #ffffff50;
+    border-color: #ffffff;
+}
+
+.violeta {
+  background-color: #982C55;
+  opacity: 0.88;
+  z-index: 10;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Section black background */
+
+div.black {
+  background-color: #161616;
+  text-align: center;
+  padding: 140px;
+}
+
+.btnComoTrabajamos {
+  width: 202px;
+  border: 2px solid #F4BA59;
+  color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  opacity: 1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.btnComoTrabajamos:hover {
+  color: white;
+  background-color: #F4BA5935;
+}
+
+/* Section gallery */
+
+.imagen-galeria {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.imgagenesMiniatura {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.imagen-ampliada {
+  width: 100%;
+}
+
+.imagen-miniatura {
+  width: 12%;
+  padding: 0,5%;
+}
 
 /* .crossoverTop {
   background-image: url("../img/CrossoverTop3.png");
@@ -57,32 +256,77 @@ nav {
   min-height: 100vh;
 } */
 
-.carrousel {
-  position: absolute;
+
+/* Media queries */
+
+/* Cuando la resolucion sea mayor o igual a 768 va a pasar lo siguiente */
+@media (min-width: 768px) {
+
+  .carouselContent {
+    margin-top: 25%;
+  }
+
 }
 
-.vp {
-  width: 100%;
-  max-height: 100vh;
+/* Cuando la resolucion sea mayor o igual a 992 va a pasar lo siguiente */
+@media (min-width: 992px) {
+
+  .dropdown-toggle::after {
+    display: table;
+    position: relative;
+    left: 63px;
+  }
+
+}
+
+/* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
+@media (min-width: 1024px) {
+
+  .carouselContent {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    padding: 60px;
+    padding-top: 50px;
+    margin-top: 10%;
+    width:100%;
+    z-index: 100;
+  }
+
+  div.text {
+    padding-right: 20%;
+    padding-left: 119px;
+  }
+
+
+  div.buttonContent {
+    align-self: flex-end;
+    padding-right: 70px;
+  }
+
+  .btnHumanTraining {
+    width: 195px;
+    font-size: 16px;
+  }
+
+  div.content {
+    padding: 50px;
+  }
+
 }
 
 
-.logo {
-  width: 191px;
-  height: 22px;
-}
+/* Cuando la resolucion sea mayor o igual a 1366 va a pasar lo siguiente */
+@media (min-width: 1366px) {
 
-.text-float {
-  position: relative;
-  z-index: 100;
-}
 
-div.black {
-  background-color: #161616;
-  height: 440px;
-}
 
-/* .dropdown-toggle::after {
-  vertical-align: -0.745em;
-  left: -48px;
-} */
+  /* Section black background */
+
+  div.black {
+  padding: 110px;
+  display: flex;
+  text-align: left;
+  }
+
+}
