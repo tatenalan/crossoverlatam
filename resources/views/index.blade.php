@@ -29,19 +29,14 @@ styles
 
         <div class="carousel-inner">
           <div class="pic3 carousel-item active">
-            {{-- <img src="/img/CrossoverTop3.png" class="d-block w-100" alt=""> --}}
           </div>
           <div class="pic4 carousel-item">
-            {{-- <img src="/img/CrossoverTop4.png" class="d-block w-100" alt="..."> --}}
           </div>
           <div class="pic5 carousel-item">
-            {{-- <img src="/img/CrossoverTop5.png" class="d-block w-100" alt="..."> --}}
           </div>
           <div class="pic2 carousel-item">
-            {{-- <img src="/img/CrossoverTop2.png" class="d-block w-100" alt="..."> --}}
           </div>
           <div class="pic1 carousel-item">
-            {{-- <img src="/img/CrossoverTop.png" class="d-block w-100" alt="..."> --}}
           </div>
         </div>
 
@@ -50,7 +45,7 @@ styles
 
   <section class="black-background">
 
-    <div class="black">
+    <div class="caja">
       <div class="content">
         <h1>Qué es <br> Human <br> <span class="naranjaBig">Training?</span></h1>
       </div>
@@ -64,37 +59,219 @@ styles
 
   </section>
 
-  <section class="galery">
+  <section class="gallery">
 
     <div class="imagen-galeria">
-      <img class="imagen-ampliada"src="/img/1.png" alt="imagen galeria">
+      <img class="imagen-ampliada"src="/img/carousel1.jpg" alt="imagen galeria">
     </div>
 
-    <div class="imgagenesMiniatura">
-      <img class="imagen-miniatura" src="/img/9.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/2.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/3.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/4.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/5.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/6.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/7.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/8.png" alt="imagen galeria">
+    <div class="imagenesMiniatura">
+      <img class="imagen-miniatura" src="/img/carousel1.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel2.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel3.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel4.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel5.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel6.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel7.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel8.jpg" alt="imagen galeria">
     </div>
+
+  </section>
+
+  <section class="gallery-mobile">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/img/carousel1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel4.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel5.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel6.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel7.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel8.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
   </section>
 
   <section class="black-background">
 
-    <div class="black">
+    <div class="caja">
       <div class="content">
         <h1>Nuestros<br> <span class="naranjaBig">Programas</span></h1>
       </div>
 
       <div class="content">
-        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos</p>
+        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</p>
       </div>
     </div>
 
   </section>
+
+  <section class="brandhth">
+
+    <div class="boxes">
+      <div class="box1">
+
+        <div class="marca">
+          <img class="logobrand" src="/img/logohth.svg" alt="logo">
+        </div>
+
+        <div class="slogan">
+          <h4>Programa de Liderazgo</h4>
+          <h4 class="bold">Human to Human</h4>
+        </div>
+
+      </div>
+
+      <div class="box2">
+        <button class="btnbrand btn" type="button" name="button">Ingresá a Human to Human</button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="brandgtg">
+
+    <div class="boxes">
+      <div class="box1">
+
+        <div class="marca">
+          <img class="logobrand" src="/img/logogtg.svg" alt="logo">
+        </div>
+
+        <div class="slogan">
+          <h4>Escuela de Ventas</h4>
+          <h4 class="bold">Sales Transformation Programme</h4>
+        </div>
+
+      </div>
+
+      <div class="box2">
+        <button class="btnbrand btn" type="button" name="button">Ingresá a Go to Goals</button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="brandpjt">
+
+    <div class="boxes">
+      <div class="box1">
+
+        <div class="marca">
+          <img class="logobrand" src="/img/logopjt.svg" alt="logo">
+        </div>
+
+        <div class="slogan">
+          <h4>Clínicas de Team Building</h4>
+          <h4 class="bold">Project Team</h4>
+        </div>
+
+      </div>
+
+      <div class="box2">
+        <button class="btnbrand btn" type="button" name="button">Ingresá a Project Team</button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="grey-background">
+
+    <div class="caja margintop10">
+      <div class="content">
+        <h1 class="black">Nuestro<br> <span class="naranjaBig">Equipo</span></h1>
+      </div>
+
+      <div class="content">
+        <p class="black">En Crossover nos destacamos por nuestra gran visión de equipos comerciales, y estamos especializados en el diseño de Escuelas de Entrenamiento de Líderes y Programas de Entrenamiento en Ventas y Team Buildings. Tenemos un equipo de gran experiencia, conformado por coachs, mentores y facilitadores especialistas en personas en desarrollo.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="team">
+    <div class="persona">
+
+      <div class="foto-perfil">
+        <img src="/img/danielarrighetti.png" alt="foto de perfil">
+      </div>
+
+      <div class="perfil">
+        <h2 class="magenta">Daniel Arrighetti</h2>
+        <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
+        <ul class="social">
+          <li><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></li>
+          <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li>
+          <li></ion-icon><ion-icon class="rounded-circle icono-linkedin" name="logo-linkedin"></ion-icon></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="persona">
+
+      <div class="foto-perfil">
+        <img src="/img/edgardosalamone.png" alt="foto de perfil">
+      </div>
+
+      <div class="perfil">
+        <h2 class="magenta">Edgardo Salamone</h2>
+        <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
+        <ul class="social">
+          <li><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></li>
+          <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li>
+          <li></ion-icon><ion-icon class="rounded-circle icono-linkedin" name="logo-linkedin"></ion-icon></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
 
 @endsection('main')
