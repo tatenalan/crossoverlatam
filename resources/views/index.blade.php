@@ -241,7 +241,7 @@ styles
         <img src="/img/danielarrighetti.png" alt="foto de perfil">
       </div>
 
-      <div class="perfil">
+      <div class="desc-perfil">
         <h2 class="magenta">Daniel Arrighetti</h2>
         <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
         <ul class="social">
@@ -259,7 +259,7 @@ styles
         <img src="/img/edgardosalamone.png" alt="foto de perfil">
       </div>
 
-      <div class="perfil">
+      <div class="desc-perfil">
         <h2 class="magenta">Edgardo Salamone</h2>
         <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
         <ul class="social">

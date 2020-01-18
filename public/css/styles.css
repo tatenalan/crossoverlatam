@@ -340,12 +340,12 @@ section.brandpjt {
 
 /* Section team */
 
-.foto-perfil {
+div.foto-perfil {
   width: 100%;
   text-align: center;
 }
 
-div.perfil {
+div.desc-perfil {
   text-align: center;
   margin: 40px;
 }
@@ -502,11 +502,7 @@ ion-icon {
     flex-direction: row;
   }
 
-  .foto-perfil {
-    text-align: left;
-  }
-
-  div.perfil {
+  div.desc-perfil {
     text-align: left;
     margin: 60px;
 }
