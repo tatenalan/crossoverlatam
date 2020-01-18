@@ -35,6 +35,11 @@ h4 {
   font-size: 26px;
 }
 
+h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+}
+
 p {
   font-size: 22px;
   font-family: 'Playfair Display', serif;
@@ -303,6 +308,12 @@ div.slogan {
   width: 225px;
 }
 
+.btnbrand:hover {
+  color: #fff;
+  background-color: #ffffff50;
+  border-color: #ffffff;
+}
+
 div.boxes {
   height: 374px;
   display: flex;
@@ -338,16 +349,57 @@ section.brandpjt {
   opacity: 0.83;
 }
 
+section.brandpjt, section.brandgtg, section.brandhth {  /* parallax */
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
 /* Section team */
 
-div.foto-perfil {
+div.img-perfil {
   width: 100%;
   text-align: center;
+  align-self: center;
+  margin-top: 10px;
+}
+
+img.img-perfil {
+  width: 300px;
 }
 
 div.desc-perfil {
   text-align: center;
-  margin: 40px;
+  align-self: center;
+  margin: 25px 45px;
+}
+
+div.personas {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+div.tarjeta-individual {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 19px 17px;
+  margin: 12px 23px;
+  background-color: white;
+}
+
+div.texto-individual {
+  margin-top: 16px;
 }
 
 .icono-whatsapp {
@@ -411,12 +463,38 @@ ion-icon {
     margin-top: 25%;
   }
 
+  /* Section gallery */
+
+  .imagen-galeria {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagen-ampliada {
+    width: 60%;
+  }
+
   /* Section brand */
 
   img.logobrand {
     height: 52px;
     width: 474px;
     margin-bottom: 21px;
+  }
+
+  /* Section team */
+
+  div.personas {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 76px;
+  }
+
+  div.tarjeta-individual {
+    padding: 19px 17px;
+    margin: 12px 19px;
   }
 
 
@@ -500,11 +578,13 @@ ion-icon {
   div.persona {
     display: flex;
     flex-direction: row;
+    height: 290px;
   }
 
   div.desc-perfil {
     text-align: left;
-    margin: 60px;
+    margin: 0px;
+    margin-right: 150px;
 }
 
 ul.social {

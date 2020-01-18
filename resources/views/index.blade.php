@@ -237,8 +237,8 @@ styles
   <section class="team">
     <div class="persona">
 
-      <div class="foto-perfil">
-        <img src="/img/danielarrighetti.png" alt="foto de perfil">
+      <div class="img-perfil">
+        <img class="img-perfil" src="/img/danielarrighetti.png" alt="foto de perfil">
       </div>
 
       <div class="desc-perfil">
@@ -255,8 +255,8 @@ styles
 
     <div class="persona">
 
-      <div class="foto-perfil">
-        <img src="/img/edgardosalamone.png" alt="foto de perfil">
+      <div class="img-perfil">
+        <img class="img-perfil" src="/img/edgardosalamone.png" alt="foto de perfil">
       </div>
 
       <div class="desc-perfil">
@@ -270,6 +270,149 @@ styles
       </div>
 
     </div>
+
+    <div class="personas">
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+    </div>
+
+</div>
+
+</div>
+
+  </section>
+
+  <section>
 
   </section>
 
