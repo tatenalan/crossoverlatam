@@ -229,7 +229,7 @@ section.black-background {
   background-color: #161616;
 }
 
-section.grey-background {
+section.gray-background {
   background-color: #EBEBEB30;
 }
 
@@ -237,6 +237,17 @@ section.grey-background {
 div.caja {
   text-align: center;
   padding: 27px;
+}
+
+div.contenedor {
+
+}
+
+div.clientes {
+  margin: 0px 90px 20px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .btnComoTrabajamos {
@@ -330,21 +341,21 @@ img.logobrand {
 
 section.brandhth {
   margin-top: 10px;
-  background-image: url("../img/fondohth.png");
+  background-image: url("../img/fondohth.jpg");
   background-position: center;
   opacity: 0.83;
 }
 
 section.brandgtg {
   margin-top: 10px;
-  background-image: url("../img/fondogtg.png");
+  background-image: url("../img/fondogtg.jpg");
   background-position: center;
   opacity: 0.83;
 }
 
 section.brandpjt {
   margin-top: 10px;
-  background-image: url("../img/fondopjt.png");
+  background-image: url("../img/fondoprojectteam.jpg");
   background-position: center;
   opacity: 0.83;
 }
@@ -386,7 +397,7 @@ div.personas {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 60px 10px;
 }
 
 div.tarjeta-individual {
@@ -429,7 +440,7 @@ ion-icon {
 
 .rounded-circle {
   padding: 8px;
-  border: solid 1px grey;
+  border: solid 1px gray;
 }
 
 /* .crossoverTop {
@@ -481,22 +492,6 @@ ion-icon {
     width: 474px;
     margin-bottom: 21px;
   }
-
-  /* Section team */
-
-  div.personas {
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 76px;
-  }
-
-  div.tarjeta-individual {
-    padding: 19px 17px;
-    margin: 12px 19px;
-  }
-
 
 }
 
@@ -587,9 +582,9 @@ ion-icon {
     margin-right: 150px;
 }
 
-ul.social {
-  display: flex;
-  justify-content: start;
+  ul.social {
+    display: flex;
+    justify-content: start;
 }
 
 
@@ -605,9 +600,8 @@ ul.social {
   /* Section caja */
 
   div.caja {
-  padding: 110px;
-  display: flex;
-  text-align: left;
+    display: flex;
+    text-align: left;
   }
 
 }

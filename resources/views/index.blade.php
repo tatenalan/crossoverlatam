@@ -176,7 +176,7 @@ styles
       <div class="box1">
 
         <div class="marca">
-          <img class="logobrand" src="/img/logogtg.svg" alt="logo">
+          <img class="logobrand" src="/img/logogtg.png" alt="logo">
         </div>
 
         <div class="slogan">
@@ -201,7 +201,7 @@ styles
       <div class="box1">
 
         <div class="marca">
-          <img class="logobrand" src="/img/logopjt.svg" alt="logo">
+          <img class="logobrand" src="/img/logopjt.png" alt="logo">
         </div>
 
         <div class="slogan">
@@ -220,7 +220,7 @@ styles
 
   </section>
 
-  <section class="grey-background">
+  <section class="gray-background">
 
     <div class="caja margintop10">
       <div class="content">
@@ -402,17 +402,42 @@ styles
           <h5>Coach Motivacional Human to Human</h5>
         </div>
 
+    </div>
+
+  </section>
+
+  <section class="gray-background">
+
+    <div class="caja margintop10">
+
+      <div class="content">
+        <h1 class="black">Nuestros<br> <span class="naranjaBig">Clientes</span></h1>
+      </div>
+
+      <div class="content">
+        <p class="black">Hemos trabajado con empresas de diferentes industrias y distinto porte. Fuimos coordinadores durante 6 años de la Global Sales School de IBM para la Región Sur. Actualmente hemos cerrado acuerdos con empresas en países de Latinoamérica como Colombia, Perú, Chile y Brasil.</p>
       </div>
 
     </div>
 
-</div>
+    <div class="clientes">
+      <img src="/img/abmauri.jpg" alt="logo cliente">
+      <img src="/img/ambev.jpg" alt="logo cliente">
+      <img src="/img/calsa.jpg" alt="logo cliente">
+      <img src="/img/isadora.jpg" alt="logo cliente">
+      <img src="/img/maersk.jpg" alt="logo cliente">
+      <img src="/img/gsk.jpg" alt="logo cliente">
+      <img src="/img/ibm.jpg" alt="logo cliente">
+      <img src="/img/repsol.jpg" alt="logo cliente">
+      <img src="/img/todomoda.jpg" alt="logo cliente">
+      <img src="/img/santander.jpg" alt="logo cliente">
+      <img src="/img/total.jpg" alt="logo cliente">
+      <img src="/img/drager.jpg" alt="logo cliente">
+      <img src="/img/schaeffler.jpg" alt="logo cliente">
+    </div>
 
-</div>
 
-  </section>
 
-  <section>
 
   </section>
 
