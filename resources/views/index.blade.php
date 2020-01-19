@@ -421,19 +421,19 @@ styles
     </div>
 
     <div class="clientes">
-      <img class="cliente-logo" src="/img/abmauri.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/ambev.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/calsa.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/isadora.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/maersk.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/gsk.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/ibm.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/repsol.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/todomoda.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/total.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente">
-      <img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente">
+      <a href="https://abmauri.es/es" target="_blank"><img class="cliente-logo" src="/img/abmauri.jpg" alt="logo cliente"></a>
+      <a href="#"><img class="cliente-logo" src="/img/ambev.jpg" alt="logo cliente"></a>
+      <a href="https://calsa.com.ar/" target="_blank"><img class="cliente-logo" src="/img/calsa.jpg" alt="logo cliente"></a>
+      <a href="https://ar.isadoraonline.com/" target="_blank"><img class="cliente-logo" src="/img/isadora.jpg" alt="logo cliente"></a>
+      <a href="https://www.maersk.com/" target="_blank"><img class="cliente-logo" src="/img/maersk.jpg" alt="logo cliente"></a>
+      <a href="https://www.gsk.com/" target="_blank"><img class="cliente-logo" src="/img/gsk.jpg" alt="logo cliente"></a>
+      <a href="https://www.ibm.com/ar-es" target="_blank"><img class="cliente-logo" src="/img/ibm.jpg" alt="logo cliente"></a>
+      <a href="https://www.repsol.es/es/index.cshtml" target="_blank"><img class="cliente-logo" src="/img/repsol.jpg" alt="logo cliente"></a>
+      <a href="https://ar.todomoda.com/" target="_blank"><img class="cliente-logo" src="/img/todomoda.jpg" alt="logo cliente"></a>
+      <a href="https://www.santander.com.ar/banco/online/personas" target="_blank"><img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente"></a>
+      <a href="https://www.total-argentina.com.ar/" target="_blank"><img class="cliente-logo" src="/img/total.jpg" alt="logo cliente"></a>
+      <a href="https://www.draeger.com/es_csa/Home" target="_blank"><img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente"></a>
+      <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a>
     </div>
 
   </section>
@@ -451,25 +451,24 @@ styles
         @csrf
 
         <div class="form-group">
-          <label>Nombre completo *</label>
+          <label class="bold">Nombre completo *</label>
           <input type="text" class="form-control" id="fullname" name="" placeholder="Ingrese su nombre" required>
         </div>
 
         <div class="form-group">
-          <label>Email *</label>
+          <label class="bold">Email *</label>
           <input type="email" class="form-control" id="youremail" name="" placeholder="Ingrese su correo" required>
-          <small id="emailText" class="form-text text-muted">Formato: email@dominio.com</small>
         </div>
 
         <div class="form-group">
-          <label>Consulta *</label>
-          <textarea class="form-control" id="yourquery" name="" rows="3" required></textarea>
+          <label class="bold">Consulta *</label>
+          <textarea class="form-control" id="yourquery" name="" placeholder="Escriba su mensaje..." rows="3" required></textarea>
         </div>
 
         <div class="form-group">
           <button type="submit" name="submit" value="submit" id="submit" class="btn btn-secondary" placeholder="Escribe tu mensaje">Enviar Consulta</button>
         </div>
-        Los valores con un * son obligatorios
+        <small id="emailHelp" class="form-text text-muted">Los valores con un * son obligatorios.</small>
 
       </form>
 
@@ -479,6 +478,5 @@ styles
 
     </div>
   </section>
-
 
 @endsection('main')
