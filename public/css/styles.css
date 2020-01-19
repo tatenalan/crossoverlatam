@@ -118,7 +118,7 @@ main {
 
 a.nav-link {
   font-size: 16px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
@@ -233,21 +233,25 @@ section.gray-background {
   background-color: #EBEBEB30;
 }
 
+section.white-background {
+  background-color: white;
+}
+
 
 div.caja {
   text-align: center;
   padding: 27px;
 }
 
-div.contenedor {
-
+.cliente-logo {
+  padding: 10px;
 }
 
 div.clientes {
-  margin: 0px 90px 20px 90px;
+  margin: 0px 150px 50px 150px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .btnComoTrabajamos {
@@ -393,20 +397,22 @@ div.desc-perfil {
 }
 
 div.personas {
-  background-color: #F5F5F5;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  background-color: #F5F5F5;
   padding: 60px 10px;
+  justify-content: center;
 }
 
 div.tarjeta-individual {
-  display: flex;
   text-align: center;
-  flex-direction: column;
   padding: 19px 17px;
   margin: 12px 23px;
   background-color: white;
+}
+
+.img-individual {
+  width: 100%;
 }
 
 div.texto-individual {
@@ -442,6 +448,21 @@ ion-icon {
   padding: 8px;
   border: solid 1px gray;
 }
+
+/* Section form */
+
+section.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #EBEBEB30;
+  padding: 30px 100px;
+}
+
+div.form {
+  width: 100%;
+}
+
 
 /* .crossoverTop {
   background-image: url("../img/CrossoverTop3.png");
@@ -491,6 +512,18 @@ ion-icon {
     height: 52px;
     width: 474px;
     margin-bottom: 21px;
+  }
+
+  /* Section form */
+
+  div.form {
+    padding: 0px 160px;
+  }
+
+  .form-control {
+    border-radius: 10px;
+    border: none;
+    background-color: #EBEBEB;
   }
 
 }
@@ -585,6 +618,18 @@ ion-icon {
   ul.social {
     display: flex;
     justify-content: start;
+}
+
+/* Section form */
+
+section.form {
+  display: flex;
+  flex-direction: row;
+  padding: 132px 0px;
+}
+
+div.form {
+  width: 50%;
 }
 
 

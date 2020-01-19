@@ -406,7 +406,7 @@ styles
 
   </section>
 
-  <section class="gray-background">
+  <section class="white-background">
 
     <div class="caja margintop10">
 
@@ -421,24 +421,63 @@ styles
     </div>
 
     <div class="clientes">
-      <img src="/img/abmauri.jpg" alt="logo cliente">
-      <img src="/img/ambev.jpg" alt="logo cliente">
-      <img src="/img/calsa.jpg" alt="logo cliente">
-      <img src="/img/isadora.jpg" alt="logo cliente">
-      <img src="/img/maersk.jpg" alt="logo cliente">
-      <img src="/img/gsk.jpg" alt="logo cliente">
-      <img src="/img/ibm.jpg" alt="logo cliente">
-      <img src="/img/repsol.jpg" alt="logo cliente">
-      <img src="/img/todomoda.jpg" alt="logo cliente">
-      <img src="/img/santander.jpg" alt="logo cliente">
-      <img src="/img/total.jpg" alt="logo cliente">
-      <img src="/img/drager.jpg" alt="logo cliente">
-      <img src="/img/schaeffler.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/abmauri.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/ambev.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/calsa.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/isadora.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/maersk.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/gsk.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/ibm.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/repsol.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/todomoda.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/total.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente">
+      <img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente">
     </div>
 
+  </section>
+
+  <section class="form">
+
+    <div class="caja margintop10">
+      <div class="content">
+        <h1 class="black">Conectate<br> <span class="naranjaBig">con nosotros</span></h1>
+      </div>
+    </div>
+
+    <div class="form">
+      <form class="" action="/" method="post">
+        @csrf
+
+        <div class="form-group">
+          <label>Nombre completo *</label>
+          <input type="text" class="form-control" id="fullname" name="" placeholder="Ingrese su nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email *</label>
+          <input type="email" class="form-control" id="youremail" name="" placeholder="Ingrese su correo" required>
+          <small id="emailText" class="form-text text-muted">Formato: email@dominio.com</small>
+        </div>
+
+        <div class="form-group">
+          <label>Consulta *</label>
+          <textarea class="form-control" id="yourquery" name="" rows="3" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" name="submit" value="submit" id="submit" class="btn btn-secondary" placeholder="Escribe tu mensaje">Enviar Consulta</button>
+        </div>
+        Los valores con un * son obligatorios
+
+      </form>
 
 
 
+      </form>
+
+    </div>
   </section>
 
 
