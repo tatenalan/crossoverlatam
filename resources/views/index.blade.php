@@ -59,7 +59,7 @@ styles
 
   </section>
 
-  <section class="gallery">
+  {{-- <section class="gallery">
 
     <div class="imagen-galeria">
       <img class="imagen-ampliada"src="/img/carousel1.jpg" alt="imagen galeria">
@@ -76,57 +76,77 @@ styles
       <img class="imagen-miniatura" src="/img/carousel8.jpg" alt="imagen galeria">
     </div>
 
-  </section>
+  </section> --}}
 
   <section class="gallery-mobile">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="/img/carousel1.jpg" alt="First slide">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+      </ol>
+      <div class="carousel-inner gallery">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/img/carousel1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel4.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel5.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel6.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel7.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/carousel8.jpg" alt="Third slide">
+        </div>
+      </div>
+
+      <div class="carousel-inner-desktop">
+        <div class="img1 carousel-item active">
+        </div>
+        <div class="img8 carousel-item">
+        </div>
+        <div class="img2 carousel-item">
+        </div>
+        <div class="img3 carousel-item">
+        </div>
+        <div class="img4 carousel-item">
+        </div>
+        <div class="img5 carousel-item">
+        </div>
+        <div class="img6 carousel-item">
+        </div>
+        <div class="img7 carousel-item">
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel2.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel3.jpg" alt="Third slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel4.jpg" alt="Third slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel5.jpg" alt="Third slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel6.jpg" alt="Third slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel7.jpg" alt="Third slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/img/carousel8.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 
   </section>
@@ -172,7 +192,7 @@ styles
       <div class="box1">
 
         <div class="marca">
-          <img class="logobrand" src="/img/logogtg.png" alt="logo">
+          <img class="logobrand" src="/img/logogtg.svg" alt="logo">
         </div>
 
         <div class="slogan">
@@ -197,7 +217,7 @@ styles
       <div class="box1">
 
         <div class="marca">
-          <img class="logobrand" src="/img/logopjt.png" alt="logo">
+          <img class="logobrand" src="/img/logopjt.svg" alt="logo">
         </div>
 
         <div class="slogan">
@@ -267,7 +287,7 @@ styles
 
     </div>
 
-    <div class="personas">
+    <div class="personas" id='nuestro-equipo'>
 
       <div class="tarjeta-individual">
 
@@ -410,14 +430,6 @@ styles
         <h1 class="black">Nuestros<br> <span class="naranjaBig">Clientes</span></h1>
       </div>
 
-      <div class="content">
-<<<<<<< HEAD
-        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</p>
-=======
-        <p class="black">Hemos trabajado con empresas de diferentes industrias y distinto porte. Fuimos coordinadores durante 6 años de la Global Sales School de IBM para la Región Sur. Actualmente hemos cerrado acuerdos con empresas en países de Latinoamérica como Colombia, Perú, Chile y Brasil.</p>
->>>>>>> 1205d916f2a84a1c35b271494fc7b333b7815baf
-      </div>
-
     </div>
 
     <div class="clientes">
@@ -472,11 +484,10 @@ styles
 
       </form>
 
-
-
-      </form>
-
     </div>
+
   </section>
+
+  
 
 @endsection('main')

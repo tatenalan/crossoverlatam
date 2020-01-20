@@ -18,6 +18,10 @@
     <!-- Icono del logo en pestana --><link rel="icon" type="image/png" href="/favicon.ico" />
     <title>@yield('titulo')</title>
     <link rel="stylesheet" href="/css/@yield('css').css">
+
+    {{-- Scripts --}}
+    <script type="text/javascript" src="/js/funciones.js"></script>
+
   </head>
   <body>
     <header>
@@ -31,7 +35,7 @@
           <ul class="navbar-nav">
 
             <li class="nav-item active">
-              <a class="nav-link" href="#">Quienes Somos <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#quienes-somos" id='quienes-somos-nav'>Quienes Somos <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -49,7 +53,7 @@
 
 
             <li class="nav-item">
-              <a class="nav-link" href="/nosotros">Nuestro Equipo</a>
+              <a class="nav-link" href="#nuestro-equipo" id='nuestro-equipo-nav'>Nuestro Equipo</a>
             </li>
 
             <li class="nav-item">
@@ -67,6 +71,9 @@
     <main>
       @yield('main')
     </main>
+
+    <a onclick="scrollToTop()" class="toTop" title="Go to top"><i class="fas fa-angle-double-up"></i></a>
+
     <footer>
       <div class="cuerpo-footer">
         <div class="row">
@@ -99,7 +106,7 @@
               <div class="input-group">
                 <input type="email" class="newsletter form-control" placeholder="Dejanos tu email" name="entry.1296773286" required>
                 <div class="input-group-append">
-                  <button type="submit" class="btn btn-outline-ligth" type="button"><i class="fas fa-at"></i></button>
+                  <button type="submit" class="btn btn-outline-ligth" type="button"><i class="fas fa-envelope"></i></button>
                 </div>
               </div>
             </form>
@@ -116,28 +123,17 @@
       </div>
 
     </footer>
-<<<<<<< HEAD
 
-=======
->>>>>>> 1205d916f2a84a1c35b271494fc7b333b7815baf
     <div class="padre">
 
         <div class="socialBar">
           <ul>
-<<<<<<< HEAD
-            <li><a href="https://api.whatsapp.com/send?phone=5491158291281&text=Hola, estoy contactandolos desde el sitio web para recibir mas informacion" target="_blank" class="icon-whatsapp" data-toggle="tooltip" data-placement="right" data-original-title="Consulta por Whatsapp!"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-            <li><a href="tel:+549-11-58291281" target="_blank"  class="icon-phone" data-toggle="tooltip" data-placement="right" data-original-title="Llamanos"><ion-icon name="call"></ion-icon></a></li>
-            <li><a href="mailto:info@laresdecanning.com" class="icon-mail"><ion-icon name="mail"></ion-icon></a></li>
-            <li><a href="http://www.facebook.com/laresdecanning" target="_blank" class="icon-facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
-            <li><a href="http://www.Instagram.com/laresdecanning" target="_blank" class="icon-instagram"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
-=======
             <li><a href="https://api.whatsapp.com/send?phone=5491158291281&text=Hola, estoy contactandolos desde su sitio web" target="_blank" class="icon-whatsapp" data-toggle="tooltip" data-placement="right" data-original-title="Consulta por Whatsapp!"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
             <li><a href="tel:+549-11-54126300" target="_blank"  class="icon-phone" data-toggle="tooltip" data-placement="right" data-original-title="Llamanos"><ion-icon name="call"></ion-icon></a></li>
             <li><a href="https://ar.linkedin.com/company/crossoverlatam" class="icon-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             <li><a href="mailto:contacto@crossoverlatam.com" class="icon-mail"><ion-icon name="mail"></ion-icon></a></li>
             <li><a href="https://www.facebook.com/crossoverlatam" target="_blank" class="icon-facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
             <li><a href="https://www.Instagram.com/crossoverlatam" target="_blank" class="icon-instagram"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
->>>>>>> 1205d916f2a84a1c35b271494fc7b333b7815baf
           </ul>
         </div>
 
