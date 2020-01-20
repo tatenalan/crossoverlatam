@@ -26,7 +26,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/"><img class="logo" src="/img/crossoverlogo.svg"></a>
+        <a class="navbar-brand" onclick="scrollToTop()"><img class="logo" src="/img/crossoverlogo.svg"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -116,7 +116,7 @@
           <div class="col-xs-12 col-md-3 col-lg-3 footer-info">
             <span>Crossover LATAM</span>
             <span>Buenos Aires, Argentina 2020</span>
-            <span>Diseño web Matias Bisurgi | Programacion Web Alan Rodriguez</span>
+            <span>Diseño Web Matías Bisurgi | Programación Web Alan Rodriguez</span>
           </div>
 
         </div>
