@@ -137,10 +137,6 @@ styles
       <div class="content">
         <h1>Nuestros<br> <span class="naranjaBig">Programas</span></h1>
       </div>
-
-      <div class="content">
-        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</p>
-      </div>
     </div>
 
   </section>
@@ -289,12 +285,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/mariana.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Mariana Volchomirsky</h5>
+          <h5>Mentor Human to Human</h5>
         </div>
 
       </div>
@@ -303,12 +299,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/anamaria.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Ana María Aguilera</h5>
+          <h5>Mentor Human to Human</h5>
         </div>
 
       </div>
@@ -316,12 +312,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/silvina.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Silvina Sánchez</h5>
+          <h5>Mentor Human to Human</h5>
         </div>
 
       </div>
@@ -329,12 +325,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/rocio.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Rocío Luz Mehtce</h5>
+          <h5>Coordinadora Dinámica Musical</h5>
         </div>
 
       </div>
@@ -342,12 +338,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/marcela.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Marcela Salvemini</h5>
+          <h5>Logística y Capacitación</h5>
         </div>
 
       </div>
@@ -355,12 +351,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/matias.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Matías Bisurgi</h5>
+          <h5>Diseño Gráfico y Comunicación Visual</h5>
         </div>
 
       </div>
@@ -368,12 +364,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/alan.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Alan Rodriguez</h5>
+          <h5>Programador Web Full Stack</h5>
         </div>
 
       </div>
@@ -381,12 +377,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/ezequiel.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Ezequiel Penido</h5>
+          <h5>Consultor Crossover en Chile</h5>
         </div>
 
       </div>
@@ -394,12 +390,12 @@ styles
       <div class="tarjeta-individual">
 
         <div class="img-individual">
-          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+          <img class="img-individual" src="/img/luiz.jpg" alt="foto de perfil">
         </div>
 
         <div class="texto-individual">
-          <h5 class="bold magenta">Silvia Garrido</h5>
-          <h5>Coach Motivacional Human to Human</h5>
+          <h5 class="bold magenta">Luis Siqueira Vieira</h5>
+          <h5>Consultor Crossover en Perú</h5>
         </div>
 
     </div>

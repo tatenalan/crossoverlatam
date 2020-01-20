@@ -95,7 +95,7 @@
             <form class="" target="_self" id="mG61Hd" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfdRScbGaoPbus19bHsrNOhRr-_-d3Wd9ta8bLtzfTOeZ6a6A/formResponse" method="post">
               {{csrf_field()}}
               <div class="input-group">
-                <input type="email" class="newsletter form-control" placeholder="Dejanos tu email" name="entry.1296773286">
+                <input type="email" class="newsletter form-control" placeholder="Dejanos tu email" name="entry.1296773286" required>
                 <div class="input-group-append">
                   <button type="submit" class="btn btn-outline-ligth" type="button"><i class="fas fa-at"></i></button>
                 </div>
