@@ -236,6 +236,10 @@ div.black {
 div.imgagenesMiniatura {
   text-align: center;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
 }
 
 .imagen-ampliada {

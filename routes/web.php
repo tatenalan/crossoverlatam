@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/ProjectTeam', function () {
+    return view('projectteam');
+});
+
+Route::get('/HumanToHuman', function () {
+    return view('humantohuman');
+});
+
+Route::get('/GoToGoals', function () {
+    return view('gotogoals');
+});

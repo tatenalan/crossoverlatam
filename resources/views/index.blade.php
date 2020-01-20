@@ -91,7 +91,7 @@ styles
       </div>
 
       <div class="content">
-        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos</p>
+        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</p>
       </div>
     </div>
 
