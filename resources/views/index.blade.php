@@ -29,19 +29,14 @@ styles
 
         <div class="carousel-inner">
           <div class="pic3 carousel-item active">
-            {{-- <img src="/img/CrossoverTop3.png" class="d-block w-100" alt=""> --}}
           </div>
           <div class="pic4 carousel-item">
-            {{-- <img src="/img/CrossoverTop4.png" class="d-block w-100" alt="..."> --}}
           </div>
           <div class="pic5 carousel-item">
-            {{-- <img src="/img/CrossoverTop5.png" class="d-block w-100" alt="..."> --}}
           </div>
           <div class="pic2 carousel-item">
-            {{-- <img src="/img/CrossoverTop2.png" class="d-block w-100" alt="..."> --}}
           </div>
           <div class="pic1 carousel-item">
-            {{-- <img src="/img/CrossoverTop.png" class="d-block w-100" alt="..."> --}}
           </div>
         </div>
 
@@ -50,7 +45,7 @@ styles
 
   <section class="black-background">
 
-    <div class="black">
+    <div class="caja">
       <div class="content">
         <h1>Qué es <br> Human <br> <span class="naranjaBig">Training?</span></h1>
       </div>
@@ -64,37 +59,424 @@ styles
 
   </section>
 
-  <section class="galery">
+  <section class="gallery">
 
     <div class="imagen-galeria">
-      <img class="imagen-ampliada"src="/img/1.png" alt="imagen galeria">
+      <img class="imagen-ampliada"src="/img/carousel1.jpg" alt="imagen galeria">
     </div>
 
-    <div class="imgagenesMiniatura">
-      <img class="imagen-miniatura" src="/img/9.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/2.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/3.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/4.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/5.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/6.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/7.png" alt="imagen galeria">
-      <img class="imagen-miniatura" src="/img/8.png" alt="imagen galeria">
+    <div class="imagenesMiniatura">
+      <img class="imagen-miniatura" src="/img/carousel1.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel2.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel3.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel4.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel5.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel6.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel7.jpg" alt="imagen galeria">
+      <img class="imagen-miniatura" src="/img/carousel8.jpg" alt="imagen galeria">
     </div>
+
+  </section>
+
+  <section class="gallery-mobile">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/img/carousel1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel4.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel5.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel6.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel7.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/img/carousel8.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
   </section>
 
   <section class="black-background">
 
-    <div class="black">
+    <div class="caja">
       <div class="content">
         <h1>Nuestros<br> <span class="naranjaBig">Programas</span></h1>
       </div>
+    </div>
+
+  </section>
+
+  <section class="brandhth">
+
+    <div class="boxes">
+      <div class="box1">
+
+        <div class="marca">
+          <img class="logobrand" src="/img/logohth.svg" alt="logo">
+        </div>
+
+        <div class="slogan">
+          <h4>Programa de Liderazgo</h4>
+          <h4 class="bold">Human to Human</h4>
+        </div>
+
+      </div>
+
+      <div class="box2">
+        <button class="btnbrand btn" type="button" name="button">Ingresá a Human to Human</button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="brandgtg">
+
+    <div class="boxes">
+      <div class="box1">
+
+        <div class="marca">
+          <img class="logobrand" src="/img/logogtg.png" alt="logo">
+        </div>
+
+        <div class="slogan">
+          <h4>Escuela de Ventas</h4>
+          <h4 class="bold">Sales Transformation Programme</h4>
+        </div>
+
+      </div>
+
+      <div class="box2">
+        <button class="btnbrand btn" type="button" name="button">Ingresá a Go to Goals</button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="brandpjt">
+
+    <div class="boxes">
+      <div class="box1">
+
+        <div class="marca">
+          <img class="logobrand" src="/img/logopjt.png" alt="logo">
+        </div>
+
+        <div class="slogan">
+          <h4>Clínicas de Team Building</h4>
+          <h4 class="bold">Project Team</h4>
+        </div>
+
+      </div>
+
+      <div class="box2">
+        <button class="btnbrand btn" type="button" name="button">Ingresá a Project Team</button>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="gray-background">
+
+    <div class="caja margintop10">
+      <div class="content">
+        <h1 class="black">Nuestro<br> <span class="naranjaBig">Equipo</span></h1>
+      </div>
 
       <div class="content">
-        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</p>
+        <p class="black">En Crossover nos destacamos por nuestra gran visión de equipos comerciales, y estamos especializados en el diseño de Escuelas de Entrenamiento de Líderes y Programas de Entrenamiento en Ventas y Team Buildings. Tenemos un equipo de gran experiencia, conformado por coachs, mentores y facilitadores especialistas en personas en desarrollo.</p>
       </div>
     </div>
 
+  </section>
+
+  <section class="team">
+    <div class="persona">
+
+      <div class="img-perfil">
+        <img class="img-perfil" src="/img/danielarrighetti.png" alt="foto de perfil">
+      </div>
+
+      <div class="desc-perfil">
+        <h2 class="magenta">Daniel Arrighetti</h2>
+        <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
+        <ul class="social">
+          <li><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></li>
+          <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li>
+          <li></ion-icon><ion-icon class="rounded-circle icono-linkedin" name="logo-linkedin"></ion-icon></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="persona">
+
+      <div class="img-perfil">
+        <img class="img-perfil" src="/img/edgardosalamone.png" alt="foto de perfil">
+      </div>
+
+      <div class="desc-perfil">
+        <h2 class="magenta">Edgardo Salamone</h2>
+        <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
+        <ul class="social">
+          <li><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></li>
+          <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li>
+          <li></ion-icon><ion-icon class="rounded-circle icono-linkedin" name="logo-linkedin"></ion-icon></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="personas">
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silviagarrido.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvia Garrido</h5>
+          <h5>Coach Motivacional Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/mariana.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Mariana Volchomirsky</h5>
+          <h5>Mentor Human to Human</h5>
+        </div>
+
+      </div>
+
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/anamaria.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Ana María Aguilera</h5>
+          <h5>Mentor Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/silvina.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Silvina Sánchez</h5>
+          <h5>Mentor Human to Human</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/rocio.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Rocío Luz Mehtce</h5>
+          <h5>Coordinadora Dinámica Musical</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/marcela.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Marcela Salvemini</h5>
+          <h5>Logística y Capacitación</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/matias.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Matías Bisurgi</h5>
+          <h5>Diseño Gráfico y Comunicación Visual</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/alan.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Alan Rodriguez</h5>
+          <h5>Programador Web Full Stack</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/ezequiel.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Ezequiel Penido</h5>
+          <h5>Consultor Crossover en Chile</h5>
+        </div>
+
+      </div>
+
+      <div class="tarjeta-individual">
+
+        <div class="img-individual">
+          <img class="img-individual" src="/img/luiz.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="texto-individual">
+          <h5 class="bold magenta">Luis Siqueira Vieira</h5>
+          <h5>Consultor Crossover en Perú</h5>
+        </div>
+
+    </div>
+
+  </section>
+
+  <section class="white-background">
+
+    <div class="caja margintop10">
+
+      <div class="content">
+        <h1 class="black">Nuestros<br> <span class="naranjaBig">Clientes</span></h1>
+      </div>
+
+      <div class="content">
+<<<<<<< HEAD
+        <p>Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</p>
+=======
+        <p class="black">Hemos trabajado con empresas de diferentes industrias y distinto porte. Fuimos coordinadores durante 6 años de la Global Sales School de IBM para la Región Sur. Actualmente hemos cerrado acuerdos con empresas en países de Latinoamérica como Colombia, Perú, Chile y Brasil.</p>
+>>>>>>> 1205d916f2a84a1c35b271494fc7b333b7815baf
+      </div>
+
+    </div>
+
+    <div class="clientes">
+      <a href="https://abmauri.es/es" target="_blank"><img class="cliente-logo" src="/img/abmauri.jpg" alt="logo cliente"></a>
+      <a href="#"><img class="cliente-logo" src="/img/ambev.jpg" alt="logo cliente"></a>
+      <a href="https://calsa.com.ar/" target="_blank"><img class="cliente-logo" src="/img/calsa.jpg" alt="logo cliente"></a>
+      <a href="https://ar.isadoraonline.com/" target="_blank"><img class="cliente-logo" src="/img/isadora.jpg" alt="logo cliente"></a>
+      <a href="https://www.maersk.com/" target="_blank"><img class="cliente-logo" src="/img/maersk.jpg" alt="logo cliente"></a>
+      <a href="https://www.gsk.com/" target="_blank"><img class="cliente-logo" src="/img/gsk.jpg" alt="logo cliente"></a>
+      <a href="https://www.ibm.com/ar-es" target="_blank"><img class="cliente-logo" src="/img/ibm.jpg" alt="logo cliente"></a>
+      <a href="https://www.repsol.es/es/index.cshtml" target="_blank"><img class="cliente-logo" src="/img/repsol.jpg" alt="logo cliente"></a>
+      <a href="https://ar.todomoda.com/" target="_blank"><img class="cliente-logo" src="/img/todomoda.jpg" alt="logo cliente"></a>
+      <a href="https://www.santander.com.ar/banco/online/personas" target="_blank"><img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente"></a>
+      <a href="https://www.total-argentina.com.ar/" target="_blank"><img class="cliente-logo" src="/img/total.jpg" alt="logo cliente"></a>
+      <a href="https://www.draeger.com/es_csa/Home" target="_blank"><img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente"></a>
+      <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a>
+    </div>
+
+  </section>
+
+  <section class="form">
+
+    <div class="caja margintop10">
+      <div class="content">
+        <h1 class="black">Conectate<br> <span class="naranjaBig">con nosotros</span></h1>
+      </div>
+    </div>
+
+    <div class="form">
+      <form class="" action="/" method="post">
+        @csrf
+
+        <div class="form-group">
+          <label class="bold">Nombre completo *</label>
+          <input type="text" class="form-control" id="fullname" name="" placeholder="Ingrese su nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label class="bold">Email *</label>
+          <input type="email" class="form-control" id="youremail" name="" placeholder="Ingrese su correo" required>
+        </div>
+
+        <div class="form-group">
+          <label class="bold">Consulta *</label>
+          <textarea class="form-control" id="yourquery" name="" placeholder="Escriba su mensaje..." rows="3" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" name="submit" value="submit" id="submit" class="btn btn-secondary" placeholder="Escribe tu mensaje">Enviar Consulta</button>
+        </div>
+        <small id="emailHelp" class="form-text text-muted">Los valores con un * son obligatorios.</small>
+
+      </form>
+
+
+
+      </form>
+
+    </div>
   </section>
 
 @endsection('main')
