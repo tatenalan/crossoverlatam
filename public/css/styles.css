@@ -212,6 +212,7 @@ div.buttonContent {
 .btnHumanTraining {
   display: none;
   width: 210px;
+  justify-content: center;
   border: 2px solid #FFFFFF;
   background-color: #ffffff35;
   border-radius: 12px;
@@ -261,15 +262,12 @@ div.caja {
 
 .cliente-logo {
   padding: 50px;
-  opacity: 0.3;
 }
 
 .cliente-logo:hover {
-  opacity: 1
 }
 
 div.clientes {
-  margin: 0px 150px 50px 150px;
   text-align: center;
 }
 
@@ -290,9 +288,18 @@ div.clientes {
   background-color: #F4BA5935;
 }
 
-.content {
+div.content {
   margin: 15px 0px;
   align-self: center;
+  justify-content: center;
+}
+
+div.content h1{
+  text-align: center;
+}
+
+div.content p{
+  text-align: left;
 }
 
 /* Section gallery */
@@ -348,7 +355,7 @@ section.gallery {
   min-height: 100vh;
 }
 
-.carousel-inner-desktop {
+.carousel-desktop {
   display: none;
 }
 
@@ -449,7 +456,7 @@ section.brandpjt, section.brandgtg, section.brandhth {  /* parallax */
     fixed = parallax
     scroll = normal
   */
-  background-attachment:fixed;
+  background-attachment:scroll;
 }
 
 /* Section team */
@@ -495,15 +502,15 @@ div.texto-individual {
 }
 
 .icono-whatsapp {
-  color: #25d366;
+  color: white;
 }
 
 .icono-mail {
- color: #D74A2F;
+ color: white;
 }
 
 .icono-linkedin {
- color: #3A84AB;
+ color: white;
 }
 
 ul.social {
@@ -521,7 +528,7 @@ ion-icon {
 
 .rounded-circle {
   padding: 8px;
-  border: solid 1px gray;
+  background: #161616;
 }
 
 /* Section form */
@@ -582,14 +589,23 @@ input[type="text"]::-ms-input-placeholder { /* Microsoft Edge */
 /* Footer */
 
 .toTop {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 47px;
+  background-color: #EBEBEB30;
+  padding-bottom: 47px;
+  cursor: pointer;
+  text-align: center;
 }
 
 footer {
   background-color: #982C55;
-  padding: 60px 130px;
+  padding: 60px 20px;
+}
+
+span a {
+  color: #F4BA59;
+}
+
+span a:hover {
+  color: #F4BA59;
 }
 
 footer span, footer li {
@@ -609,8 +625,7 @@ footer span, footer li {
 }
 
 .footer-info {
-  display: flex;
-  flex-direction: column;
+  align-self: center;
 }
 
 .input-group-append {
@@ -710,6 +725,12 @@ footer form {
     width: 60%;
   }
 
+  /* Section caja */
+
+  div.clientes {
+    margin: 0px 150px 50px 150px;
+  }
+
   /* Section brand */
 
   img.logobrand {
@@ -777,12 +798,11 @@ footer form {
   }
 
   .btnHumanTraining {
-    width: 195px;
+    width: 210px;
   }
 
   div.content {
     padding: 50px;
-    text-align: center;
   }
 
   /* Section gallery */
@@ -795,8 +815,12 @@ footer form {
     display: flex;
   }
 
-  .gallery {
+  .carousel-mobile {
     display: none;
+  }
+
+  .carousel-desktop {
+    display: flex;
   }
 
   /* section.gallery-mobile {
@@ -814,6 +838,14 @@ footer form {
     text-align: center;
   }
 
+  section.brandpjt, section.brandgtg, section.brandhth {  /* parallax */
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+
   /* Section team */
 
   div.persona {
@@ -826,12 +858,22 @@ footer form {
     text-align: left;
     margin: 0px;
     margin-right: 150px;
-}
+  }
 
   ul.social {
     display: flex;
     justify-content: start;
-}
+  }
+
+ /* Section white background */
+
+ .cliente-logo {
+   opacity: 0.3;
+ }
+
+ .cliente-logo:hover {
+   opacity: 1
+ }
 
 /* Section form */
 

@@ -72,17 +72,19 @@
       @yield('main')
     </main>
 
-    <a onclick="scrollToTop()" class="toTop" title="Go to top"><i class="fas fa-angle-double-up"></i></a>
+    <div class="toTop">
+      <a onclick="scrollToTop()" class="toTop" title="Go to top"><i class="fas fa-angle-double-up"></i></a>
+    </div>
 
     <footer>
       <div class="cuerpo-footer">
         <div class="row">
 
-          {{-- <div class="col-xs-12 col-md-2 col-lg-2">
+          {{-- <div class="col-xs-6 col-md-2 col-lg-2">
             <a class="footer-brand" href="/"><img class="logo" src="/img/crossover.svg"></a>
           </div> --}}
 
-          <div class="col-xs-12 col-md-3 col-lg-3">
+          <div class="col-md-3 col-lg-3">
             <ul>
               <li><a href="/">Quiénes Somos</a></li>
               <li><a href="/">Human Training</a></li>
@@ -91,7 +93,7 @@
             </ul>
           </div>
 
-          <div class="col-xs-12 col-md-3 col-lg-3">
+          <div class="col-md-3 col-lg-3">
             <ul class="footer-social">
               <li><ion-icon name="logo-facebook"></ion-icon>Facebook</li>
               <li><ion-icon name="logo-instagram"></ion-icon>Instagram</li>
@@ -99,7 +101,7 @@
             </ul>
           </div>
 
-          <div class="col-xs-12 col-md-3 col-lg-3">
+          <div class="col-md-3 col-lg-3">
             <span>Suscribite a nuestro Newsletter</span>
             <form class="" target="_self" id="mG61Hd" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfdRScbGaoPbus19bHsrNOhRr-_-d3Wd9ta8bLtzfTOeZ6a6A/formResponse" method="post">
               {{csrf_field()}}
@@ -113,12 +115,15 @@
           </div>
 
 
-          <div class="col-xs-12 col-md-3 col-lg-3 footer-info">
+          <div class="col-md-3 col-lg-3 footer-info">
             <span>Crossover LATAM</span>
             <span>Buenos Aires, Argentina 2020</span>
-            <span>Diseño Web Matías Bisurgi | Programación Web Alan Rodriguez</span>
           </div>
 
+        </div>
+
+        <div>
+          <span class="centrado">Diseño Web <a class="naranja" href="https://www.linkedin.com/in/matias-bisurgi-56475656/" target="_blank">Matías Bisurgi</a> | Programación Web <a href="https://www.linkedin.com/in/rodriguez-alan/" target="_blank">Alan Rodriguez</span></a>
         </div>
       </div>
 

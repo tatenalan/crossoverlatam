@@ -80,19 +80,19 @@ styles
 
   <section class="gallery-mobile">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carousel" class="carousel-mobile carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+        <li data-target="#carousel" data-slide-to="5"></li>
+        <li data-target="#carousel" data-slide-to="6"></li>
+        <li data-target="#carousel" data-slide-to="7"></li>
+        <li data-target="#carousel" data-slide-to="8"></li>
       </ol>
-      <div class="carousel-inner gallery">
+      <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="/img/carousel1.jpg" alt="First slide">
         </div>
@@ -119,7 +119,29 @@ styles
         </div>
       </div>
 
-      <div class="carousel-inner-desktop">
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel-desktop carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+      </ol>
+      <div class="carousel-inner ">
         <div class="img1 carousel-item active">
         </div>
         <div class="img8 carousel-item">
@@ -147,7 +169,6 @@ styles
         <span class="sr-only">Next</span>
       </a>
     </div>
-
 
   </section>
 
@@ -445,7 +466,7 @@ styles
       <a href="https://www.santander.com.ar/banco/online/personas" target="_blank"><img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente"></a>
       <a href="https://www.total-argentina.com.ar/" target="_blank"><img class="cliente-logo" src="/img/total.jpg" alt="logo cliente"></a>
       <a href="https://www.draeger.com/es_csa/Home" target="_blank"><img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente"></a>
-      <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a>
+      {{-- <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a> --}}
     </div>
 
   </section>
@@ -488,6 +509,6 @@ styles
 
   </section>
 
-  
+
 
 @endsection('main')
