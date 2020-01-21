@@ -1,0 +1,120 @@
+section.gotogoals {
+  background-image: url(../img/bggtg.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor {
+    margin-top: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnHumanTraining {
+    margin-top: 20px;
+}
+
+section span {
+  color: #EB2227;
+}
+
+section h1 {
+    color: black;
+}
+
+div.content h1 {
+    text-align: center;
+}
+
+div.content p {
+    margin-bottom: 30px;
+}
+
+p {
+    color: black;
+    font-size: 22px;
+    text-align: left;
+}
+
+.descargar-brochure {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EB2227;
+    padding: 10px 22px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px #00000026;
+}
+
+.descargar-brochure:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.clinica {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto {
+    max-width: 800px;
+    text-align: left;
+}
+
+div.texto-individual {
+  margin-top: 16px;
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 50px;
+}
+
+.foto-clinica {
+  text-align: center;
+  padding: 15px;
+}
+
+.img-individual {
+  text-align: center;
+}
+
+.rojo {
+    color: #EB2227;
+    text-align: left;
+}
+
+
+/* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
+@media (min-width: 768px) {
+
+  .clinica {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+/* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
+@media (min-width: 1024px) {
+
+  div.caja {
+    flex-direction: row;
+  }
+
+  div.content {
+    min-width: 420px;
+  }
+
+}

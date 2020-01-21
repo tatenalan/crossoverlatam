@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#quienes-somos" id='quienes-somos-nav'>Quienes Somos <span class="sr-only">(current)</span></a>
             </li>
 
@@ -86,6 +86,20 @@
           </div> --}}
 
           <div class="col-md-3 col-lg-3">
+            <a href="/"><img src="/img/crossover.svg" alt=""></a>
+            {{-- <span>Suscribite a nuestro Newsletter</span>
+            <form class="" target="_self" id="mG61Hd" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfdRScbGaoPbus19bHsrNOhRr-_-d3Wd9ta8bLtzfTOeZ6a6A/formResponse" method="post">
+              {{csrf_field()}}
+              <div class="input-group">
+                <input type="email" class="newsletter form-control" placeholder="Dejanos tu email" name="entry.1296773286" required>
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-outline-ligth" type="button"><i class="fas fa-envelope"></i></button>
+                </div>
+              </div>
+            </form> --}}
+          </div>
+
+          <div class="col-md-3 col-lg-3">
             <ul>
               <li><a href="/">Quiénes Somos</a></li>
               <li><a href="/">Human Training</a></li>
@@ -102,22 +116,10 @@
             </ul>
           </div>
 
-          <div class="col-md-3 col-lg-3">
-            <span>Suscribite a nuestro Newsletter</span>
-            <form class="" target="_self" id="mG61Hd" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfdRScbGaoPbus19bHsrNOhRr-_-d3Wd9ta8bLtzfTOeZ6a6A/formResponse" method="post">
-              {{csrf_field()}}
-              <div class="input-group">
-                <input type="email" class="newsletter form-control" placeholder="Dejanos tu email" name="entry.1296773286" required>
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-outline-ligth" type="button"><i class="fas fa-envelope"></i></button>
-                </div>
-              </div>
-            </form>
-          </div>
 
 
           <div class="col-md-3 col-lg-3 footer-info">
-            <span>Crossover LATAM</span>
+            <span>Crossover LATAM ©</span>
             <span>Buenos Aires, Argentina 2020</span>
           </div>
 
@@ -134,7 +136,7 @@
 
         <div class="socialBar">
           <ul>
-            <li><a href="https://api.whatsapp.com/send?phone=5491158291281&text=Hola, estoy contactandolos desde su sitio web" target="_blank" class="icon-whatsapp" data-toggle="tooltip" data-placement="right" data-original-title="Consulta por Whatsapp!"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5491154126300&text=Hola, estoy contactandolos desde su sitio web" target="_blank" class="icon-whatsapp" data-toggle="tooltip" data-placement="right" data-original-title="Consulta por Whatsapp!"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
             <li><a href="tel:+549-11-54126300" target="_blank"  class="icon-phone" data-toggle="tooltip" data-placement="right" data-original-title="Llamanos"><ion-icon name="call"></ion-icon></a></li>
             <li><a href="https://ar.linkedin.com/company/crossoverlatam" class="icon-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             <li><a href="mailto:contacto@crossoverlatam.com" class="icon-mail"><ion-icon name="mail"></ion-icon></a></li>

@@ -282,7 +282,7 @@ Crossover LATAM
         <h2 class="magenta">Daniel Arrighetti</h2>
         <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
         <ul class="social">
-          <li><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></li>
+          <li><a href="mailto:daniel.arrighetti@crossoverlatam.com"><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></a></li>
           <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li>
           <li></ion-icon><ion-icon class="rounded-circle icono-linkedin" name="logo-linkedin"></ion-icon></li>
         </ul>
@@ -300,7 +300,7 @@ Crossover LATAM
         <h2 class="magenta">Edgardo Salamone</h2>
         <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
         <ul class="social">
-          <li><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></li>
+          <li><a href="mailto:edgardo.salamone@crossoverlatam.com"><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></a></li>
           <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li>
           <li></ion-icon><ion-icon class="rounded-circle icono-linkedin" name="logo-linkedin"></ion-icon></li>
         </ul>

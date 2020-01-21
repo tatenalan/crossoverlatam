@@ -45,10 +45,6 @@ div.content h1 {
   text-align: center;
 }
 
-div.content {
-  min-width: 420px;
-}
-
 div.content p {
   margin-bottom: 30px;
 }
@@ -146,4 +142,9 @@ div.texto-individual {
   div.caja {
     flex-direction: row;
   }
+
+  div.content {
+    min-width: 420px;
+  }
+  
 }

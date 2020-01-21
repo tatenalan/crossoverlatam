@@ -1,6 +1,6 @@
 @extends('plantilla')
 @section('titulo')
-Crossover LATAM
+Human to Human
 @endsection
 @section('css')
 hth
