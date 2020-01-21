@@ -29,7 +29,7 @@ hth
 
       <div class="content">
         <p>Human to Human es un Programa de Liderazgo que promueve un estilo de liderazgo basado en las capacidades de comunicación entre personas, que aspira a integrar las potencias de las organizaciones para alcanzar logros comunes. Es un programa dirigido a quienes lideran proyectos y equipos de trabajo que deben implementar en la táctica la definición estratégica.</p>
-        <button class="btnhumantohuman btn" type="button" name="button">Descargar Brochure</button>
+        <a class="descargar-brochure "href="/docs/HumanToHumanWeb.pdf" target="_blank">Descargar Brochure</a>
       </div>
     </div>
 
@@ -89,8 +89,6 @@ hth
 
   </section>
 
-  <a href="/docs/HumanToHuman2020.pdf" target="_blank">
-Descargar Archivo
-</a>
+
 
 @endsection

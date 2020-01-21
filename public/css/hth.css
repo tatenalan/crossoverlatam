@@ -29,12 +29,20 @@ p {
   text-align: left;
 }
 
+.contenedor {
+  margin-top: 20%;
+}
+
 div.content h1 {
   text-align: center;
 }
 
 div.content {
   min-width: 420px;
+}
+
+div.content p {
+  margin-bottom: 30px;
 }
 
 .padding {
