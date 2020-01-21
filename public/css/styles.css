@@ -30,8 +30,9 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-family: 'Playfair Display, sans-serif';
+  text-align: center;
 }
 
 h4 {

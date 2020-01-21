@@ -455,7 +455,7 @@ styles
 
     <div class="clientes">
       <a href="https://abmauri.es/es" target="_blank"><img class="cliente-logo" src="/img/abmauri.jpg" alt="logo cliente"></a>
-      <a href="#"><img class="cliente-logo" src="/img/ambev.jpg" alt="logo cliente"></a>
+      <img class="cliente-logo" src="/img/ambev.jpg" alt="logo cliente">
       <a href="https://calsa.com.ar/" target="_blank"><img class="cliente-logo" src="/img/calsa.jpg" alt="logo cliente"></a>
       <a href="https://ar.isadoraonline.com/" target="_blank"><img class="cliente-logo" src="/img/isadora.jpg" alt="logo cliente"></a>
       <a href="https://www.maersk.com/" target="_blank"><img class="cliente-logo" src="/img/maersk.jpg" alt="logo cliente"></a>
@@ -466,7 +466,7 @@ styles
       <a href="https://www.santander.com.ar/banco/online/personas" target="_blank"><img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente"></a>
       <a href="https://www.total-argentina.com.ar/" target="_blank"><img class="cliente-logo" src="/img/total.jpg" alt="logo cliente"></a>
       <a href="https://www.draeger.com/es_csa/Home" target="_blank"><img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente"></a>
-      {{-- <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a> --}}
+      <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a>
     </div>
 
   </section>

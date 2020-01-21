@@ -1,0 +1,117 @@
+section.humantohuman {
+  background-image: url(../img/bghth.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+section.black-background {
+  background-color: #161616;
+}
+
+section h1 {
+  color: black;
+}
+
+section span {
+  color: #41BEEE;
+}
+
+p {
+  color: black;
+  font-size: 22px;
+  text-align: left;
+}
+
+div.content h1 {
+  text-align: center;
+}
+
+div.content {
+  min-width: 420px;
+}
+
+.padding {
+  padding: 25px;
+}
+
+.btnhumantohuman {
+  background-color: #41BEEE;
+  color: white;
+  box-shadow: 2px 3px 5px #00000026;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 27px;
+}
+
+.celeste {
+  color: #41BEEE;
+  text-align: left;
+}
+
+.clinicas {
+  display: flex;
+  flex-direction: column;
+}
+
+.clinica {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto {
+    max-width: 800px;
+    text-align: left;
+}
+
+div.texto-individual {
+  margin-top: 16px;
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 50px;
+}
+
+.img-individual {
+  text-align: center;
+}
+
+.foto-clinica {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
+@media (min-width: 768px) {
+
+  .clinica {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+/* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
+@media (min-width: 1024px) {
+
+  div.caja {
+    flex-direction: row;
+  }
+}

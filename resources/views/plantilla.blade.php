@@ -16,6 +16,7 @@
     <!-- Google Fonts --><link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
     <!-- Mi css Socialbar --><link rel="stylesheet" href="/css/socialbar.css">
     <!-- Icono del logo en pestana --><link rel="icon" type="image/png" href="/favicon.ico" />
+    <!-- Mi css General --><link rel="stylesheet" href="/css/styles.css">
     <title>@yield('titulo')</title>
     <link rel="stylesheet" href="/css/@yield('css').css">
 
@@ -43,7 +44,7 @@
                 Nuestros Programas
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Human to Human</a>
+                <a class="dropdown-item" href="/HumanToHuman">Human to Human</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Go to Goals</a>
                 <div class="dropdown-divider"></div>
