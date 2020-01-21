@@ -140,7 +140,7 @@
             <li><a href="tel:+549-11-54126300" target="_blank"  class="icon-phone" data-toggle="tooltip" data-placement="right" data-original-title="Llamanos"><ion-icon name="call"></ion-icon></a></li>
             <li><a href="https://ar.linkedin.com/company/crossoverlatam" class="icon-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
             <li><a href="mailto:contacto@crossoverlatam.com" class="icon-mail"><ion-icon name="mail"></ion-icon></a></li>
-            <li><a href="https://www.facebook.com/crossoverlatam" target="_blank" class="icon-facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.facebook.com/crossover_humantraining" target="_blank" class="icon-facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
             <li><a href="https://www.Instagram.com/crossoverlatam" target="_blank" class="icon-instagram"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
           </ul>
         </div>
