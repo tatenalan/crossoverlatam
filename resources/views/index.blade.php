@@ -3,7 +3,7 @@
 Crossover LATAM
 @endsection
 @section('css')
-styles
+
 @endsection('css')
 @section('main')
 
@@ -257,7 +257,7 @@ styles
 
   </section>
 
-  <section class="gray-background">
+  <section class="gray-background" id='nuestro-equipo'>
 
     <div class="caja margintop10">
       <div class="content">
@@ -308,7 +308,7 @@ styles
 
     </div>
 
-    <div class="personas" id='nuestro-equipo'>
+    <div class="personas">
 
       <div class="tarjeta-individual">
 
@@ -466,7 +466,7 @@ styles
       <a href="https://www.santander.com.ar/banco/online/personas" target="_blank"><img class="cliente-logo" src="/img/santander.jpg" alt="logo cliente"></a>
       <a href="https://www.total-argentina.com.ar/" target="_blank"><img class="cliente-logo" src="/img/total.jpg" alt="logo cliente"></a>
       <a href="https://www.draeger.com/es_csa/Home" target="_blank"><img class="cliente-logo" src="/img/drager.jpg" alt="logo cliente"></a>
-      <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo" src="/img/schaeffler.jpg" alt="logo cliente"></a>
+      <a href="https://www.schaeffler.com.ar/content.schaeffler.com.br/es/index.jsp" target="_blank"><img class="cliente-logo logo-peque" src="/img/schaeffler.jpg" alt="logo cliente"></a>
     </div>
 
   </section>
@@ -475,7 +475,7 @@ styles
 
     <div class="caja margintop10">
       <div class="content">
-        <h1 class="black">Conectate<br> <span class="naranjaBig">con nosotros</span></h1>
+        <h1 class="black small">Conectate<br> <span class="naranjaSmall">con nosotros</span></h1>
       </div>
     </div>
 

@@ -73,6 +73,13 @@ span.naranja {
   font-weight: bold;
 }
 
+span.naranjaSmall {
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+  color: #F4BA59;
+  font-weight: bold;
+}
+
 span.blanco {
   color:#ffffff;
   font-weight:normal;
@@ -104,6 +111,10 @@ span.naranjaBig {
 
 .magenta {
   color: #982C55;
+}
+
+.small {
+  font-size: 42px;
 }
 
 main {
@@ -253,6 +264,8 @@ section.gray-background {
 
 section.white-background {
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -264,9 +277,6 @@ div.caja {
 
 .cliente-logo {
   padding: 50px;
-}
-
-.cliente-logo:hover {
 }
 
 div.clientes {
@@ -540,7 +550,13 @@ section.form {
   flex-direction: column;
   justify-content: space-around;
   background-color: #EBEBEB30;
-  padding: 30px 100px;
+  padding: 10px 30px;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: none;
+  background-color: #EBEBEB;
 }
 
 div.form {
@@ -630,6 +646,10 @@ footer span, footer li {
   align-self: center;
 }
 
+.logo-peque {
+  width: 300px;
+}
+
 .input-group-append {
   background-color: #eae2e2;
   border-top-right-radius: 4px;
@@ -705,6 +725,14 @@ footer form {
     font-size: 70px;
   }
 
+  span.naranjaSmall {
+    font-size: 70px;
+  }
+
+  .small {
+    font-size: 70px;
+  }
+
   /* Section carousel hero */
 
   .carouselContent {
@@ -743,14 +771,14 @@ footer form {
 
   /* Section form */
 
-  div.form {
-    padding: 0px 160px;
+  section.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
   }
 
-  .form-control {
-    border-radius: 10px;
-    border: none;
-    background-color: #EBEBEB;
+  div.form {
+    padding: 0px 160px;
   }
 
 }
