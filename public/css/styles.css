@@ -129,6 +129,7 @@ main {
 .logo {
   width: 191px;
   height: 22px;
+  cursor: pointer;
 }
 
 a.nav-link {
@@ -564,20 +565,6 @@ label {
 
 button {
   font-family: 'Playfair Display', serif;
-}
-
-.descargar-brochure {
-  color: white;
-  background-color: #41BEEE;
-  padding: 10px 22px;
-  margin-top: 10px;
-  border-radius: 15px;
-  box-shadow: 2px 3px 5px #00000026;
-}
-
-.descargar-brochure:hover {
-  color: white;
-  text-decoration: none;
 }
 
 input[type="email"]::placeholder { /* Firefox, Chrome, Opera */

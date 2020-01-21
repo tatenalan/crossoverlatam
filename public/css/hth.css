@@ -8,7 +8,6 @@ section.humantohuman {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 section.black-background {
@@ -31,7 +30,15 @@ p {
 
 .contenedor {
   margin-top: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.btnHumanTraining {
+  margin-top: 20px;
+}
+
 
 div.content h1 {
   text-align: center;
@@ -57,6 +64,21 @@ div.content p {
   font-size: 16px;
   padding: 13px;
   font-family: 'Roboto', sans-serif;
+}
+
+.descargar-brochure {
+  color: white;
+  background-color: #41BEEE;
+  padding: 10px 22px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 5px #00000026;
+}
+
+.descargar-brochure:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
 }
 
 div.caja {

@@ -46,9 +46,9 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/HumanToHuman">Human to Human</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Go to Goals</a>
+                <a class="dropdown-item" href="/GoToGoals">Go to Goals</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Project Team</a>
+                <a class="dropdown-item" href="/ProjectTeam">Project Team</a>
               </div>
             </li>
 
