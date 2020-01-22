@@ -23,7 +23,7 @@ gtg
 
     <div class="caja">
       <div class="content">
-        <h1>Qué es <br><span class="celesteBig"> Human to Human</span></h1>
+        <h1>Qué es <br><span class="celesteBig"> Go to Goals?</span></h1>
       </div>
 
       <div class="content">
