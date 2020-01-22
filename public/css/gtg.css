@@ -60,6 +60,11 @@ p {
   opacity: 0.85;
 }
 
+.clinicas {
+  display: flex;
+  flex-direction: column;
+}
+
 .clinica {
   display: flex;
   flex-direction: column;
@@ -90,18 +95,19 @@ div.texto-individual {
 }
 
 .rojo {
-    color: #EB2227;
-    text-align: left;
+  color: #EB2227;
+  text-align: center;
+}
 }
 
 
 /* Cuando la resolucion sea mayor o igual a 1024 va a pasar lo siguiente */
 @media (min-width: 768px) {
 
-  .clinica {
+  /* .clinica {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
 }
 

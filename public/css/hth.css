@@ -2,7 +2,7 @@ section.humantohuman {
   background-image: url(../img/bghth.jpg);
   width: 100%;
   min-height: 100vh;
-  background-position: center;
+  background-position: unset;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
@@ -26,6 +26,10 @@ p {
   color: black;
   font-size: 22px;
   text-align: left;
+}
+
+section.clinicas p {
+  text-align: center;
 }
 
 .contenedor {
@@ -88,7 +92,7 @@ div.caja {
 
 .celeste {
   color: #41BEEE;
-  text-align: left;
+  text-align: center;
 }
 
 .clinicas {
@@ -146,5 +150,5 @@ div.texto-individual {
   div.content {
     min-width: 420px;
   }
-  
+
 }

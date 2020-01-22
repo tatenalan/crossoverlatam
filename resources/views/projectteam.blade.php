@@ -11,8 +11,8 @@ pjt
 
     <div class="contenedor">
 
-      <img class="logobrand" src="/img/logopjt.png" alt="logo">
-      <h4>Clínicas de Team Building Project Team</h4>
+      <img class="no-expand" src="/img/logopjt.png" alt="logo">
+      <h4>Team Building para equipos en Acción</h4>
       <h4 class="bold">Project Team</h4>
       <button class="btnHumanTraining btn" type="button" name="button">Qué es Project Team</button>
 

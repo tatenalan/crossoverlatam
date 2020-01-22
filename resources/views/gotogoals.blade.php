@@ -12,7 +12,6 @@ gtg
     <div class="contenedor">
 
       <img class="logobrand" src="/img/logogtg.svg" alt="logo">
-      <h4>Escuela de Ventas</h4>
       <h4 class="bold">Sales Transformation Programme</h4>
       <button class="btnHumanTraining btn" type="button" name="button">Qué es Go to Goals</button>
 
@@ -43,8 +42,8 @@ gtg
           <img class="img-perfil" src="/img/lab1.jpg" alt="foto de perfil">
         </div>
         <div class="texto">
-          <h3 class="rojo bold">Clínica 1 Líderes Inteligentes</h3>
-          <p>Clínica de Liderazgo para Líderes de Acción: Dirigido a quienes lideran proyectos y equipos de trabajo que deben implementar en la táctica la definición de la estrategia.</p>
+          <h3 class="rojo bold">Lab I - Identificación de la Oportunidad</h3>
+          <p></p>
         </div>
 
       </div>
@@ -55,8 +54,8 @@ gtg
           <img class="img-perfil" src="/img/lab2.jpg" alt="foto de perfil">
         </div>
         <div class="texto">
-          <h3 class="rojo bold">Clínica 2 - Liderazgo Equipos Despistados</h3>
-          <p>Clínica de Liderazgo dirigida a líderes que van a máxima velocidad y deben orientar el rumbo del equipo.</p>
+          <h3 class="rojo bold">Lab II - Desafiando la Oportunidad</h3>
+          <p></p>
         </div>
 
       </div>
@@ -67,8 +66,8 @@ gtg
           <img class="img-perfil" src="/img/lab3.jpg" alt="foto de perfil">
         </div>
         <div class="texto">
-          <h3 class="rojo bold">Clínica 3 - Liderazgo Faro en la Tormenta</h3>
-          <p>Clínica de Liderazgo dirigida a Líderes que guían equipos en la gestión cotidiana.</p>
+          <h3 class="rojo bold">Lab III - Cierre del Acuerdo</h3>
+          <p></p>
         </div>
 
       </div>

@@ -60,6 +60,17 @@ p {
   opacity: 0.85;
 }
 
+img.logobrand {
+    height: 52px;
+    /* width: 474px; */
+    margin-bottom: 21px;
+}
+
+.no-expand {
+  height: 52px;
+  margin-bottom: 21px;
+}
+
 .clinica {
   display: flex;
   flex-direction: column;
