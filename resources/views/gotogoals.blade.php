@@ -27,7 +27,7 @@ gtg
       </div>
 
       <div class="content">
-        <p>Human to Human es un Programa de Liderazgo que promueve un estilo de liderazgo basado en las capacidades de comunicación entre personas, que aspira a integrar las potencias de las organizaciones para alcanzar logros comunes. Es un programa dirigido a quienes lideran proyectos y equipos de trabajo que deben implementar en la táctica la definición estratégica.</p>
+        <p>La tarea comercial es ver las oportunidades y aceptar el desafío de transformarse en objetivos logrados, a través de un proceso de comunicación al cual llamamos venta. Go to Goals es una escuela de entrenamiento de vendedores. Somos un equipo especializado en ayudar a mejorar en lo que cada vendedor necesite hacerlo.</p>
         <a class="descargar-brochure "href="/documents/GoToGoalsWeb.pdf" target="_blank">Descargar Brochure</a>
       </div>
     </div>
