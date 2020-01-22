@@ -17,7 +17,7 @@ Crossover LATAM
       </div>
 
       <div class="buttonContent">
-        <button class="btnHumanTraining btn" type="button" name="button">Qué es Human Training</button>
+        <a href="#quienes-somos" class="btnHumanTraining">Qué es Human Training</a>
       </div>
 
     </div>
@@ -43,7 +43,7 @@ Crossover LATAM
       </div>
   </section>
 
-  <section class="black-background">
+  <section class="black-background" id="quienes-somos">
 
     <div class="caja">
       <div class="content">
@@ -53,7 +53,7 @@ Crossover LATAM
       <div class="content">
         <p>Es un <span class="naranja">concepto de capacitación</span> a partir de un <span class="naranja">blending</span> de acciones de formación que consisten en una receta con condimentos, cuyas proporciones se definen a medida de las condiciones de cada grupo de trabajo.</p>
         <p>Mezclamos <span class="naranja">espacios teóricos conceptuales</span> (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes, coaching grupal y personalizado, laboratorios de prácticas y contactos de seguimiento para que se <span class="naranja">traslade lo aprendido a la realidad. Somos humanos entrenando humanos.</span></p>
-        <button class="btnComoTrabajamos btn" type="button" name="button">Mirá como trabajamos</button>
+        <a href="#como-trabajamos" class="btnComoTrabajamos">Mirá como trabajamos</a>
       </div>
     </div>
 
@@ -78,7 +78,7 @@ Crossover LATAM
 
   </section> --}}
 
-  <section class="gallery-mobile">
+  <section class="gallery-mobile" id="como-trabajamos">
 
     <div id="carousel" class="carousel-mobile carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -199,7 +199,7 @@ Crossover LATAM
       </div>
 
       <div class="box2">
-        <button class="btnbrand btn" type="button" name="button">Ingresá a Human to Human</button>
+        <a href="/HumanToHuman" class="btnbrand" target="_blank">Ingresá a Human to Human</a>
       </div>
 
 
@@ -217,14 +217,13 @@ Crossover LATAM
         </div>
 
         <div class="slogan">
-          <h4>Escuela de Ventas</h4>
           <h4 class="bold">Sales Transformation Programme</h4>
         </div>
 
       </div>
 
       <div class="box2">
-        <button class="btnbrand btn" type="button" name="button">Ingresá a Go to Goals</button>
+        <a href="/GoToGoals" class="btnbrand" target="_blank">Ingresá a Go to Goals</a>
       </div>
 
 
@@ -242,14 +241,14 @@ Crossover LATAM
         </div>
 
         <div class="slogan">
-          <h4>Clínicas de Team Building</h4>
+          <h4>Team Building para equipos en Acción.</h4>
           <h4 class="bold">Project Team</h4>
         </div>
 
       </div>
 
       <div class="box2">
-        <button class="btnbrand btn" type="button" name="button">Ingresá a Project Team</button>
+        <a href="/HumanToHuman" class="btnbrand" target="_blank">Ingresá a Project Team</a>
       </div>
 
 
@@ -280,7 +279,7 @@ Crossover LATAM
 
       <div class="desc-perfil">
         <h2 class="magenta">Daniel Arrighetti</h2>
-        <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
+        <p class="black"><span class="bold">Director de Desarrollo Crossover LATAM. Co-Founder y consultor de los programas Human to Human y Go to Goals.</span> Su rol es entender las necesidades de los clientes y equipos de trabajo, y co crear programas de entrenamiento que preparen a las personas para proyectos de desarrollo. Anteriormente fue coordinador de la Global Sales School de IBM para varios países de la región y Gerente Comercial del canal Estaciones de Servicio en YPF S.A.</p>
         <ul class="social">
           <li><a href="mailto:daniel.arrighetti@crossoverlatam.com" target="_blank"><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></a></li>
           {{-- <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li> --}}
@@ -298,7 +297,7 @@ Crossover LATAM
 
       <div class="desc-perfil">
         <h2 class="magenta">Edgardo Salamone</h2>
-        <p class="black">Mezclamos espacios teóricos conceptuales (presenciales y de live learning), instancias reflexivas y lúdicas, networking entre los participantes.</p>
+        <p class="black"><span class="bold">Co-Founder y Director Pedagógico de los programas de entrenamiento de Human to Human y Go to Goals.</span> Especialista en Human Training. Una metodología de entrenamiento con un enfoque integral de las actitudes, emociones y los procesos de aprendizaje de cada persona. Los pensamientos y conceptos que utiliza en estos procesos provienen de su formación como Counselor, Psicólogo Social y Coach.</p>
         <ul class="social">
           <li><a href="mailto:edgardo.salamone@crossoverlatam.com" target="_blank"><ion-icon class="rounded-circle icono-mail" name="mail"></ion-icon></a></li>
           {{-- <li><ion-icon class="rounded-circle icono-whatsapp" name="logo-whatsapp"></ion-icon></li> --}}
@@ -443,7 +442,7 @@ Crossover LATAM
 
   </section>
 
-  <section class="white-background">
+  <section class="white-background" id="clientes">
 
     <div class="caja margintop10">
 
@@ -471,7 +470,7 @@ Crossover LATAM
 
   </section>
 
-  <section class="form">
+  <section class="form" id="contacto">
 
     <div class="caja margintop10">
       <div class="content">

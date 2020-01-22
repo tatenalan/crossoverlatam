@@ -230,6 +230,7 @@ div.buttonContent {
 .btnHumanTraining {
   display: none;
   width: 210px;
+  padding: 10px;
   justify-content: center;
   border: 2px solid #FFFFFF;
   background-color: #ffffff35;
@@ -245,6 +246,7 @@ div.buttonContent {
     color: #fff;
     background-color: #ffffff50;
     border-color: #ffffff;
+    text-decoration: none;
 }
 
 .violeta {
@@ -292,6 +294,7 @@ div.clientes {
   width: 202px;
   border: 2px solid #F4BA59;
   color: white;
+  padding: 10px;
   border-radius: 12px;
   margin-top: 20px;
   opacity: 1;
@@ -303,6 +306,7 @@ div.clientes {
 .btnComoTrabajamos:hover {
   color: white;
   background-color: #F4BA5935;
+  text-decoration: none;
 }
 
 div.content {
@@ -412,6 +416,7 @@ div.slogan {
 .btnbrand {
   border: 2px solid #FFFFFF;
   background-color: #ffffff35;
+  padding: 10px;
   border-radius: 12px;
   opacity: 1;
   color: white;
@@ -425,6 +430,7 @@ div.slogan {
   color: #fff;
   background-color: #ffffff50;
   border-color: #ffffff;
+  text-decoration: none;
 }
 
 div.boxes {
@@ -581,10 +587,6 @@ input.newsletter:focus {
 }
 
 label {
-  font-family: 'Playfair Display', serif;
-}
-
-button {
   font-family: 'Playfair Display', serif;
 }
 
@@ -896,7 +898,8 @@ footer form {
   div.desc-perfil {
     text-align: left;
     margin: 0px;
-    margin-right: 150px;
+    margin-right: 59px;
+    max-width: 2700px;
   }
 
   ul.social {
@@ -925,7 +928,6 @@ section.form {
 div.form {
   width: 50%;
 }
-
 
 /* Cuando la resolucion sea mayor o igual a 1366 va a pasar lo siguiente */
 @media (min-width: 1366px) {

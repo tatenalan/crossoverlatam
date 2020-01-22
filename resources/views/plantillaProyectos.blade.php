@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="/css/@yield('css').css">
 
     {{-- Scripts --}}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/funciones.js"></script>
 
   </head>
@@ -37,33 +36,15 @@
           <ul class="navbar-nav">
 
             <li class="nav-item">
-              <a class="nav-link" id='quienes-somos-nav' href="#quienes-somos">Quienes Somos <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Nuestros Programas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/HumanToHuman" target="_blank">Human to Human</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/GoToGoals" target="_blank">Go to Goals</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/ProjectTeam" target="_blank">Project Team</a>
-              </div>
-            </li>
-
-
-            <li class="nav-item">
-              <a class="nav-link" href="#nuestro-equipo" id='nuestro-equipo-nav'>Nuestro Equipo</a>
+              <a class="nav-link" href="/HumanToHuman">Human to Human</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#clientes" id='clientes-nav'>Clientes</a>
+              <a class="nav-link" href="/GoToGoals">Go to Goals</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#contacto" id="contacto-nav">Contacto</a>
+              <a class="nav-link" href="/ProjectTeam">Project Team</a>
             </li>
 
           </ul>

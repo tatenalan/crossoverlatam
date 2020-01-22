@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('plantillaProyectos')
 @section('titulo')
 Human to Human
 @endsection
@@ -14,13 +14,13 @@ hth
       <img class="logobrand" src="/img/logohth.svg" alt="logo">
       <h4>Programa de Liderazgo</h4>
       <h4 class="bold">Human to Human</h4>
-      <button class="btnHumanTraining btn" type="button" name="button">Qué es Human Training</button>
+      <a href="#HumanToHuman" class="btnHumanTraining">Qué es Human Training</a>
 
     </div>
 
   </section>
 
-  <section class="white-background">
+  <section class="white-background" id="HumanToHuman">
 
     <div class="caja">
       <div class="content">

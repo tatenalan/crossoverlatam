@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('plantillaProyectos')
 @section('titulo')
 Project Team
 @endsection
@@ -14,13 +14,13 @@ pjt
       <img class="no-expand" src="/img/logopjt.png" alt="logo">
       <h4>Team Building para equipos en Acción</h4>
       <h4 class="bold">Project Team</h4>
-      <button class="btnHumanTraining btn" type="button" name="button">Qué es Project Team</button>
+      <a href="#ProjectTeam" class="btnHumanTraining" >Qué es Project Team</a>
 
     </div>
 
   </section>
 
-  <section class="white-background">
+  <section class="white-background" id="ProjectTeam">
 
     <div class="caja">
       <div class="content">

@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('plantillaProyectos')
 @section('titulo')
 Go to Goals
 @endsection
@@ -13,13 +13,13 @@ gtg
 
       <img class="logobrand" src="/img/logogtg.svg" alt="logo">
       <h4 class="bold">Sales Transformation Programme</h4>
-      <button class="btnHumanTraining btn" type="button" name="button">Qué es Go to Goals</button>
+      <a href="#GoToGoals" class="btnHumanTraining">Qué es Go to Goals</a>
 
     </div>
 
   </section>
 
-  <section class="white-background">
+  <section class="white-background" id="GoToGoals">
 
     <div class="caja">
       <div class="content">

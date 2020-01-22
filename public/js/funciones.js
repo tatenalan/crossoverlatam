@@ -6,7 +6,7 @@
 
   // $( document ).ready(function() {
   //   $("#quienes-somos-nav").click(function() {
-  //     $('html,body').animate({ scrollTop: $("#quienes-somos").offset().top - 80}, 'slow');
+  //     $('html,body').animate({ scrollTop: $("#quienes-somos").offset().top - 180}, 'slow');
   //   });
   //
   //   $( document ).ready(function() {
@@ -15,3 +15,14 @@
   //     });
   //
   // });
+
+  // var navLinks = document.getElementsByClassName("nav-link");
+  // for (var i = 0; i < navLinks.length; i++) {
+  //   navLinks[i].onclick = function(){
+  //
+  //     var elements = navLinks[0];
+  //     while(elements)
+  //     {}
+  //     this.classList.add('active');
+  //   }
+  // }
