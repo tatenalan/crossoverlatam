@@ -799,6 +799,12 @@ footer form {
     padding: 0px 160px;
   }
 
+  /* Footer */
+
+  .desarrolladores {
+    float: left;
+  }
+
 }
 
 /* Cuando la resolucion sea mayor o igual a 992 va a pasar lo siguiente */

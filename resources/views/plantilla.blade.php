@@ -127,7 +127,7 @@
         </div>
 
         <div>
-          <span class="centrado">Diseño Web <a class="naranja" href="https://www.linkedin.com/in/matias-bisurgi-56475656/" target="_blank">Matías Bisurgi</a> | Programación Web <a href="https://www.linkedin.com/in/rodriguez-alan/" target="_blank">Alan Rodriguez</span></a>
+          <span class="desarrolladores">Diseño Web <a class="naranja" href="https://www.linkedin.com/in/matias-bisurgi-56475656/" target="_blank">Matías Bisurgi</a> | Programación Web <a href="https://www.linkedin.com/in/rodriguez-alan/" target="_blank">Alan Rodriguez</span></a>
         </div>
       </div>
 
