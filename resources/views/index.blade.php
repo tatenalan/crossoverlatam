@@ -479,26 +479,26 @@ Crossover LATAM
     </div>
 
     <div class="form">
-      <form class="" action="/" method="post">
+      <form class="" action="{{ url('/') }}" method="post">
         @csrf
 
         <div class="form-group">
           <label class="bold">Nombre completo *</label>
-          <input type="text" class="form-control" id="fullname" name="" placeholder="Ingrese su nombre" required>
+          <input type="text" class="form-control" name="name" placeholder="Ingrese su nombre" required>
         </div>
 
         <div class="form-group">
           <label class="bold">Email *</label>
-          <input type="email" class="form-control" id="youremail" name="" placeholder="Ingrese su correo" required>
+          <input type="email" class="form-control" name="email" placeholder="Ingrese su correo" required>
         </div>
 
         <div class="form-group">
           <label class="bold">Consulta *</label>
-          <textarea class="form-control" id="yourquery" name="" placeholder="Escriba su mensaje..." rows="3" required></textarea>
+          <textarea class="form-control" name="content" placeholder="Escriba su mensaje..." rows="3" required></textarea>
         </div>
 
         <div class="form-group">
-          <button type="submit" name="submit" value="submit" id="submit" class="btn btn-secondary" placeholder="Escribe tu mensaje">Enviar Consulta</button>
+          <button type="submit" class="btn btn-secondary" placeholder="Escribe tu mensaje">Enviar Consulta</button>
         </div>
         <small id="emailHelp" class="form-text text-muted">Los valores con un * son obligatorios.</small>
 

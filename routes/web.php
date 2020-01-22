@@ -1,5 +1,10 @@
 <?php
 
+use Illuminate\Http\Request;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,4 +30,9 @@ Route::get('/HumanToHuman', function () {
 
 Route::get('/GoToGoals', function () {
     return view('gotogoals');
+});
+
+Route::post('/', function(Request $request){
+  Mail::send(new ContactMail($request));
+  return redirect ('/');
 });
