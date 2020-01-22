@@ -102,10 +102,10 @@
 
           <div class="col-md-3 col-lg-3">
             <ul>
-              <li><a href="/">Quiénes Somos</a></li>
-              <li><a href="/">Human Training</a></li>
-              <li><a href="/">Nuestro equipo</a></li>
-              <li><a href="/">Clientes</a></li>
+              <li><a href="#quienes-somos">Quiénes Somos</a></li>
+              <li><a href="#quienes-somos">Human Training</a></li>
+              <li><a href="#nuestro-equipo">Nuestro equipo</a></li>
+              <li><a href="#clientes">Clientes</a></li>
             </ul>
           </div>
 
