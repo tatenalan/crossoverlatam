@@ -181,7 +181,7 @@ a.nav-link {
 }
 
 .pic1{
-  background-image: url("../img/CrossoverTop.png");
+  background-image: url("../img/crossoverapertura.jpg");
   min-height: 100vh;
 }
 
@@ -205,6 +205,9 @@ a.nav-link {
   min-height: 100vh;
 }
 
+.logo-hero {
+  max-width: 500px;
+}
 
 button {
   font-size: 16px;

@@ -11,7 +11,7 @@ Crossover LATAM
     <div class="carouselContent">
 
       <div class="text">
-        <h2>Crossover Human Training</h2>
+        <img class="logo-hero" src="/img/logocrossoverhumantraining.svg" alt="">
         <p class="bold">Crossover es una consultora dedicada al entrenamiento de personas y a la revitalización de trabajo.<span class="blanco"> Nos concentramos en desarrollar las habilidades necesarias para potenciar a las personas en el desempeño de habilidades para el rol.</span></p>
         <p>Con gran experiencia en equipos comerciales, nos especializamos en el diseño de <span class="naranja">Escuelas de  Entrenamiento de Líderes, Programas de Entrenamiento en Ventas y Team Buildings.</span></p>
       </div>
@@ -28,7 +28,7 @@ Crossover LATAM
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 
         <div class="carousel-inner">
-          <div class="pic3 carousel-item active">
+          <div class="pic1 carousel-item active">
           </div>
           <div class="pic4 carousel-item">
           </div>
@@ -36,7 +36,7 @@ Crossover LATAM
           </div>
           <div class="pic2 carousel-item">
           </div>
-          <div class="pic1 carousel-item">
+          <div class="pic3 carousel-item">
           </div>
         </div>
 
