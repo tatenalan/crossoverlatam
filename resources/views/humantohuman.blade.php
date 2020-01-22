@@ -14,7 +14,7 @@ hth
       <img class="logobrand" src="/img/logohth.svg" alt="logo">
       <h4>Programa de Liderazgo</h4>
       <h4 class="bold">Human to Human</h4>
-      <a href="#HumanToHuman" class="btnHumanTraining">Qué es Human Training</a>
+      <a href="#HumanToHuman" class="btnHumanTraining">Qué es Human to Human</a>
 
     </div>
 

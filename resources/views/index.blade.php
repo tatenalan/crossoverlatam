@@ -248,7 +248,7 @@ Crossover LATAM
       </div>
 
       <div class="box2">
-        <a href="/HumanToHuman" class="btnbrand" target="_blank">Ingresá a Project Team</a>
+        <a href="/ProjectTeam" class="btnbrand" target="_blank">Ingresá a Project Team</a>
       </div>
 
 
