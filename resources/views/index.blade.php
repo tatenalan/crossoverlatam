@@ -90,7 +90,6 @@ Crossover LATAM
         <li data-target="#carousel" data-slide-to="5"></li>
         <li data-target="#carousel" data-slide-to="6"></li>
         <li data-target="#carousel" data-slide-to="7"></li>
-        <li data-target="#carousel" data-slide-to="8"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -139,7 +138,6 @@ Crossover LATAM
         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
       </ol>
       <div class="carousel-inner ">
         <div class="img1 carousel-item active">
